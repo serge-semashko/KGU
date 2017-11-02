@@ -1,0 +1,35 @@
+<?php
+    if (!isset($_GET['callback']))
+        die;
+	$jsonData = file_get_contents('http://10.0.10.103:9090/get_data=1&callback=?');
+	$jsonData = $jsonData.substr(1,$jsonData.strlen-2);
+	echo $jsonData;
+/*
+
+    if (!isset($_GET['callback']))
+        die;
+    include 'JSON.php';
+	$callback = $_GET['callback'];
+	$jsonData = file_get_contents('http://10.0.10.103:9090/get_data=1&callback=?');
+    echo JSON::enclose($callback, $jsonData);
+
+*/
+
+/*    include 'Cache.php';
+    include 'JSON.php';
+    
+    
+    $callback = $_GET['callback'];
+    $cache = Cache::getInstance();
+    if ($cache->needUpdate())
+    {
+    
+        $jsonData = file_get_contents('http://159.93.126.233:8080/proxy.cgi?id=6');
+        $cache->update($jsonData);
+                                    
+        
+        
+    }
+    
+    echo JSON::enclose($callback, $cache->getData());*/
+?>
