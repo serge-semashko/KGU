@@ -84,7 +84,7 @@ var
   kgu1port : word = 100;
   kgu2port : word = 100;
   cntVal :    dword;
-  skgu_freq : array [0..1,0..7] of double;
+  skgu_freq : array [0..1,0..7] of int64;
   kgu_std,  kgu_mean :  array [0..1,0..7] of double;
     kgu_freq:  array [0..1,0..7] of double;
    kgu_counter :  array [0..1,0..7] of dword;
@@ -414,7 +414,7 @@ var
       exit;
     end;
     dtime := (finTime-kgu_st_time[kgunum, chnum ])*1.0/freq;
-    kgu_freq[kgunum,chnum] :=  cntVal/dtime;
+    kgu_freq[kgunum,chnum] :=  cntVal*30.0/dtime;
     wRet := DCON_Clear_Counter(kgu_counter_com_number[kgunum] , 1 , -1 ,chnum ,  0, 200);
     QueryPerformanceCounter(kgu_st_time[kgunum,chnum]);
 
@@ -425,10 +425,10 @@ var
     skgu_freq[kgunum, chnum] := 0;
     for i1 := 0 to 10 do begin
       if kgu_freqhist[kgunum, chnum,i1] <10
-         then skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + kgu_freq[kgunum, chnum]
-         else skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + kgu_freqhist[kgunum, chnum, i1];
+         then skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + trunc(kgu_freq[kgunum, chnum])
+         else skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + trunc(kgu_freqhist[kgunum, chnum, i1]);
     end;
-    skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] / 10;
+    skgu_freq[kgunum, chnum] := (skgu_freq[kgunum, chnum] div  10000) * 1000;
 
     kgu_sumx[kgunum, chnum] := kgu_sumx[kgunum, chnum] + kgu_freq[kgunum, chnum];
     kgu_sumx2[kgunum, chnum] := kgu_sumx2[kgunum, chnum] + kgu_freq[kgunum, chnum] * kgu_freq[kgunum, chnum];
@@ -473,8 +473,8 @@ begin
    for chnum := 0 to 7 do read_counter_and_reset(1, chnum);
    nsum := nsum+1;
 
-  kgu1freqtxt.Caption := format('Freq = %.2f', [skgu_freq[0,1]*2]);
-  kgu2freqtxt.Caption := format('Freq = %.2f', [skgu_freq[0,1]*2]);
+  kgu1freqtxt.Caption := format('Freq = %d', [skgu_freq[0,1]*2]);
+  kgu2freqtxt.Caption := format('Freq = %d', [skgu_freq[0,1]*2]);
 
 
 

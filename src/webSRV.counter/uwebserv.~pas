@@ -1,4 +1,4 @@
-//2
+//3
 unit uwebserv;
 
 interface
@@ -67,7 +67,7 @@ type
     function ProcessHttpRequest(Request, URI: string): integer;
   end;
 var
-PortNum :integer = 9080;
+PortNum :integer = 9090;
 textfromjson :string ='[]';
 currentData :string = '{}';
 testjson : string ='[{"time":"18:57:40","sbrkgu1":0,"sbrkgu2":0,"k1t6":272.73,"k1t12":295.05,"k1t13":288.41,"k1dt5t6":12.15,"k1dt3t4":2.73,"k1sbr":0,'+
@@ -84,7 +84,7 @@ var
   kgu1port : word = 100;
   kgu2port : word = 100;
   cntVal :    dword;
-  skgu_freq : array [0..1,0..7] of double;
+  skgu_freq : array [0..1,0..7] of int64;
   kgu_std,  kgu_mean :  array [0..1,0..7] of double;
     kgu_freq:  array [0..1,0..7] of double;
    kgu_counter :  array [0..1,0..7] of dword;
@@ -414,7 +414,7 @@ var
       exit;
     end;
     dtime := (finTime-kgu_st_time[kgunum, chnum ])*1.0/freq;
-    kgu_freq[kgunum,chnum] :=  cntVal/dtime;
+    kgu_freq[kgunum,chnum] :=  cntVal*30.0/dtime;
     wRet := DCON_Clear_Counter(kgu_counter_com_number[kgunum] , 1 , -1 ,chnum ,  0, 200);
     QueryPerformanceCounter(kgu_st_time[kgunum,chnum]);
 
@@ -425,10 +425,10 @@ var
     skgu_freq[kgunum, chnum] := 0;
     for i1 := 0 to 10 do begin
       if kgu_freqhist[kgunum, chnum,i1] <10
-         then skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + kgu_freq[kgunum, chnum]
-         else skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + kgu_freqhist[kgunum, chnum, i1];
+         then skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + trunc(kgu_freq[kgunum, chnum])
+         else skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] + trunc(kgu_freqhist[kgunum, chnum, i1]);
     end;
-    skgu_freq[kgunum, chnum] := skgu_freq[kgunum, chnum] / 10;
+    skgu_freq[kgunum, chnum] := (skgu_freq[kgunum, chnum] div  10000) * 1000;
 
     kgu_sumx[kgunum, chnum] := kgu_sumx[kgunum, chnum] + kgu_freq[kgunum, chnum];
     kgu_sumx2[kgunum, chnum] := kgu_sumx2[kgunum, chnum] + kgu_freq[kgunum, chnum] * kgu_freq[kgunum, chnum];
@@ -547,12 +547,12 @@ begin
             while ( position < (offset+g)) do begin
               if ((t_VN.child[position] as tlkjsonstring).Value = 'VALUE')
                 then begin
-                 if (id  = 45) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,1]]);
-                 if (id  = 46) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,2]]);
-                 if (id  = 47) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,3]]);
-                 if (id  = 95) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,1]]);
-                 if (id  = 96) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,2]]);
-                 if (id  = 97) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,3]]);
+                 if (id  = 45) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,0]]);
+                 if (id  = 46) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,1]]);
+                 if (id  = 47) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,2]]);
+                 if (id  = 95) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,0]]);
+                 if (id  = 96) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,1]]);
+                 if (id  = 97) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,2]]);
                  s:=(t_VV.Child[position] as tlkjsonstring).Value;
                  s:=ansireplacestr(s,',','.');
                  pointpos:=pos('.',s);
@@ -600,7 +600,7 @@ begin
       r1:=strToFloat(r[9]) - strtofloat(r[10]);
       AddVarToRecord('k1dt3t4',format('%f',[r1]));
       AddVarToRecord('k1sbr' , r[35]);
-      AddVarToRecord('k1vanna' , r[36]);
+      AddVarToRecord('k1vanna' , r[34]);
       AddVarToRecord('k1bo1' , r[32]);
       AddVarToRecord('k1bo2' ,  r[33]);
       AddVarToRecord('sbrkgu1' , r[35]);
@@ -623,7 +623,7 @@ begin
       AddVarToRecord('k2dt3t4',format('%f',[r1]));
 
       AddVarToRecord('k2sbr' , r[85]);
-      AddVarToRecord('k2vanna' , r[86]);
+      AddVarToRecord('k2vanna' , r[84]);
       AddVarToRecord('k2bo1' , r[82]);
       AddVarToRecord('k2bo2' , r[83]);
       AddVarToRecord('sbrkgu2' , r[85]);
