@@ -119,7 +119,7 @@ function processData(t) {
     k1dt5t6 = toChart(k1sdt5t6);
     k1dt3t4 = toChart(k1sdt3t4);
     var k1sbr = toChart(r[35]);
-    var k1vanna = toChart(r[36]);
+    var k1vanna = toChart(r[34]);
     var k1bo1 = toChart(r[32]);
     var k1bo2 = toChart(r[33]);
     var sbrkgu1 = toChart(r[35]);
@@ -140,7 +140,7 @@ function processData(t) {
     k2dt5t6 = toChart(k2sdt5t6);
     k2dt3t4 = toChart(k2sdt3t4);
     var k2sbr = toChart(r[85]);
-    var k2vanna = toChart(r[86]);
+    var k2vanna = toChart(r[84]);
     var k2bo1 = toChart(r[82]);
     var k2bo2 = toChart(r[83]);
 
@@ -519,8 +519,8 @@ window.onload = function () {
         hostname = dloc.hostname;
     }
     console.log(hostname + " ");
-    url = "http://" + hostname + ":9080/get_data&callback=?";
-    histurl = "http://" + hostname + ":9080/get_hist=1&callback=?";
+    url = "http://" + hostname + ":9090/get_data&callback=?";
+    histurl = "http://" + hostname + ":9090/get_hist=1&callback=?";
  
    //    getAllData();
     console.log(url);

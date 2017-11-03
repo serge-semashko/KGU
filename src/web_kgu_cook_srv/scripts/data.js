@@ -117,7 +117,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "Ванна",
-            "valueField": "k1dt5t6",
+            "valueField": "k1vanna",
             "fillAlphas": 0
         }, {
         "lineColor": "#FF3300",
@@ -264,7 +264,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "Ванна",
-            "valueField": "k1dt5t6",
+            "valueField": "k1vanna",
             "fillAlphas": 0
         },
         {
@@ -412,7 +412,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "Ванна",
-            "valueField": "k1dt5t6",
+            "valueField": "k1vanna",
             "fillAlphas": 0
         },
         {
@@ -562,7 +562,7 @@ var graphs3 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "Ванна",
-            "valueField": "k2dt5t6",
+            "valueField": "k2vanna",
             "fillAlphas": 0
         },
         {
@@ -711,7 +711,7 @@ var graphs3_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "Ванна",
-            "valueField": "k2dt5t6",
+            "valueField": "k2vanna",
             "fillAlphas": 0
         },
         {
@@ -859,7 +859,7 @@ var graphs3_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "Ванна",
-            "valueField": "k2dt5t6",
+            "valueField": "k2vanna",
             "fillAlphas": 0
         },
         {
