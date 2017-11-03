@@ -473,8 +473,8 @@ begin
    for chnum := 0 to 7 do read_counter_and_reset(1, chnum);
    nsum := nsum+1;
 
-  kgu1freqtxt.Caption := format('Freq = %.2f', [skgu_freq[0,1]*2]);
-  kgu2freqtxt.Caption := format('Freq = %.2f', [skgu_freq[0,1]*2]);
+  kgu1freqtxt.Caption := format('Freq = %d', [skgu_freq[0,1]*2]);
+  kgu2freqtxt.Caption := format('Freq = %d', [skgu_freq[0,1]*2]);
 
 
 

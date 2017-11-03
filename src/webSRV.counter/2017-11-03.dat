@@ -36797,3 +36797,128 @@
 03.11.2017 10:23:59 generate end
 03.11.2017 10:23:59 init  counters
 03.11.2017 10:23:59 init  end
+03.11.2017 10:37:33 Начало работы программы
+
+03.11.2017 10:37:33 init  begin
+03.11.2017 10:37:34 generate begin
+03.11.2017 10:37:34 generate end
+03.11.2017 10:37:34 init  counters
+03.11.2017 10:37:34 init  end
+03.11.2017 10:37:38 open sock
+ counter KGU = 1 channel = 0
+03.11.2017 10:37:38 Error read counter KGU = 1 channel = 1
+03.11.2017 10:37:38 Error read counter KGU = 1 channel = 2
+03.11.2017 10:37:38 Error read counter KGU = 1 channel = 3
+03.11.2017 10:37:38 Error read counter KGU = 1 channel = 4
+03.11.2017 10:37:38 Error read counter KGU = 1 channel = 5
+03.11.2017 10:37:38 Error read counter KGU = 1 channel = 6
+03.11.2017 10:37:38 Error read counter KGU = 1 channel = 7
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 0
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 1
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 2
+03.11.2017 10:37:38 Listen sock
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 3
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 4
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 5
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 6
+03.11.2017 10:37:38 Error read counter KGU = 2 channel = 7
+03.11.2017 10:38:09 Client read sock
+03.11.2017 10:38:09 TCPHttpThrd.Create
+03.11.2017 10:38:09 Client read sock
+03.11.2017 10:38:09 TCPHttpThrd.Create
+03.11.2017 10:38:09 Client read sock
+03.11.2017 10:38:09 TCPHttpThrd.Create
+03.11.2017 10:38:09 Client read sock
+03.11.2017 10:38:09 TCPHttpThrd.Create
+03.11.2017 10:38:09 Client read sock
+03.11.2017 10:38:09 TCPHttpThrd.Create
+03.11.2017 10:38:09 Client read sock
+03.11.2017 10:38:09 TCPHttpThrd.Create
+03.11.2017 10:38:29 Client read sock
+03.11.2017 10:38:30 TCPHttpThrd.Create
+03.11.2017 10:38:30 Client read sock
+03.11.2017 10:38:31 TCPHttpThrd.Create
+03.11.2017 10:38:31 Client read sock
+03.11.2017 10:38:31 TCPHttpThrd.Create
+03.11.2017 10:38:31 Client read sock
+03.11.2017 10:38:31 TCPHttpThrd.Create
+03.11.2017 10:38:31 Client read sock
+03.11.2017 10:38:31 TCPHttpThrd.Create
+03.11.2017 10:38:31 Client read sock
+03.11.2017 10:38:31 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:32 Client read sock
+03.11.2017 10:38:32 TCPHttpThrd.Create
+03.11.2017 10:38:35 Client read sock
+03.11.2017 10:38:35 TCPHttpThrd.Create
+03.11.2017 10:38:36 Client read sock
+03.11.2017 10:38:36 TCPHttpThrd.Create
+03.11.2017 10:38:36 Client read sock
+03.11.2017 10:38:36 TCPHttpThrd.Create
+03.11.2017 10:38:36 Client read sock
+03.11.2017 10:38:36 TCPHttpThrd.Create
+03.11.2017 10:38:36 Client read sock
+03.11.2017 10:38:37 TCPHttpThrd.Create
+03.11.2017 10:38:37 Client read sock
+03.11.2017 10:38:37 TCPHttpThrd.Create
+03.11.2017 10:38:37 Client read sock
+03.11.2017 10:38:37 TCPHttpThrd.Create
+03.11.2017 10:38:38 Client read sock
+03.11.2017 10:38:38 TCPHttpThrd.Create
+03.11.2017 10:38:38 Client read sock
+03.11.2017 10:38:38 TCPHttpThrd.Create
+03.11.2017 10:38:38 Client read sock
+03.11.2017 10:38:38 TCPHttpThrd.Create
+03.11.2017 10:38:38 Client read sock
+03.11.2017 10:38:38 TCPHttpThrd.Create
+03.11.2017 10:38:38 Client read sock
+03.11.2017 10:38:38 TCPHttpThrd.Create
+03.11.2017 10:38:38 Client read sock
+03.11.2017 10:38:38 TCPHttpThrd.Create
+03.11.2017 10:38:39 Client read sock
+03.11.2017 10:38:39 TCPHttpThrd.Create
+03.11.2017 10:38:40 Client read sock
+03.11.2017 10:38:40 TCPHttpThrd.Create
+03.11.2017 10:38:40 Client read sock
+03.11.2017 10:38:40 TCPHttpThrd.Create
+03.11.2017 10:38:40 Client read sock
+03.11.2017 10:39:35 Начало работы программы
+
+03.11.2017 10:39:35 init  begin
+03.11.2017 10:39:36 generate begin
+03.11.2017 10:39:36 generate end
+03.11.2017 10:39:36 init  counters
+03.11.2017 10:39:36 init  end
+03.11.2017 10:39:40 open sock
+ counter KGU = 1 channel = 0
+03.11.2017 10:39:40 Error read counter KGU = 1 channel = 1
+03.11.2017 10:39:40 Error read counter KGU = 1 channel = 2
+03.11.2017 10:39:40 Error read counter KGU = 1 channel = 3
+03.11.2017 10:39:40 Error read counter KGU = 1 channel = 4
+03.11.2017 10:39:40 Error read counter KGU = 1 channel = 5
+03.11.2017 10:39:40 Error read counter KGU = 1 channel = 6
+03.11.2017 10:39:40 Error read counter KGU = 1 channel = 7
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 0
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 1
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 2
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 3
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 4
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 5
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 6
+03.11.2017 10:39:40 Listen sock
+03.11.2017 10:39:40 Error read counter KGU = 2 channel = 7

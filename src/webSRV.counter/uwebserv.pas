@@ -547,12 +547,18 @@ begin
             while ( position < (offset+g)) do begin
               if ((t_VN.child[position] as tlkjsonstring).Value = 'VALUE')
                 then begin
-                 if (id  = 45) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,0]]);
-                 if (id  = 46) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,1]]);
-                 if (id  = 47) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[0,2]]);
-                 if (id  = 95) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,0]]);
-                 if (id  = 96) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,1]]);
-                 if (id  = 97) then (t_VV.Child[position] as tlkjsonstring).Value := format('%.2f',[skgu_freq[1,2]]);
+                 if (id  = 45)
+                  then (t_VV.Child[position] as tlkjsonstring).Value := format('%d',[skgu_freq[0,0]]);
+                 if (id  = 46)
+                  then (t_VV.Child[position] as tlkjsonstring).Value := format('%d',[skgu_freq[0,1]]);
+                 if (id  = 47)
+                  then (t_VV.Child[position] as tlkjsonstring).Value := format('%d',[skgu_freq[0,2]]);
+                 if (id  = 95)
+                  then (t_VV.Child[position] as tlkjsonstring).Value := format('%d',[skgu_freq[1,0]]);
+                 if (id  = 96)
+                  then (t_VV.Child[position] as tlkjsonstring).Value := format('%d',[skgu_freq[1,1]]);
+                 if (id  = 97)
+                  then (t_VV.Child[position] as tlkjsonstring).Value := format('%d',[skgu_freq[1,2]]);
                  s:=(t_VV.Child[position] as tlkjsonstring).Value;
                  s:=ansireplacestr(s,',','.');
                  pointpos:=pos('.',s);
