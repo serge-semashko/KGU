@@ -67,7 +67,7 @@ type
     function ProcessHttpRequest(Request, URI: string): integer;
   end;
 var
-PortNum :integer = 9080;
+PortNum :integer = 9090;
 textfromjson :string ='[]';
 currentData :string = '{}';
 testjson : string ='[{"time":"18:57:40","sbrkgu1":0,"sbrkgu2":0,"k1t6":272.73,"k1t12":295.05,"k1t13":288.41,"k1dt5t6":12.15,"k1dt3t4":2.73,"k1sbr":0,'+
@@ -600,7 +600,7 @@ begin
       r1:=strToFloat(r[9]) - strtofloat(r[10]);
       AddVarToRecord('k1dt3t4',format('%f',[r1]));
       AddVarToRecord('k1sbr' , r[35]);
-      AddVarToRecord('k1vanna' , r[36]);
+      AddVarToRecord('k1vanna' , r[34]);
       AddVarToRecord('k1bo1' , r[32]);
       AddVarToRecord('k1bo2' ,  r[33]);
       AddVarToRecord('sbrkgu1' , r[35]);
@@ -623,7 +623,7 @@ begin
       AddVarToRecord('k2dt3t4',format('%f',[r1]));
 
       AddVarToRecord('k2sbr' , r[85]);
-      AddVarToRecord('k2vanna' , r[86]);
+      AddVarToRecord('k2vanna' , r[84]);
       AddVarToRecord('k2bo1' , r[82]);
       AddVarToRecord('k2bo2' , r[83]);
       AddVarToRecord('sbrkgu2' , r[85]);

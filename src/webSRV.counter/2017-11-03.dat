@@ -14975,3 +14975,63 @@
 
 03.11.2017 07:07:13 Client read sock
 03.11.2017 07:07:13 TCPHttpThrd.Create
+03.11.2017 07:15:57 Начало работы программы
+
+03.11.2017 07:15:57 init  begin
+03.11.2017 07:15:58 generate begin
+03.11.2017 07:15:58 generate end
+03.11.2017 07:15:58 init  counters
+03.11.2017 07:15:58 init  end
+03.11.2017 07:16:02 open sock
+ counter KGU = 1 channel = 0
+03.11.2017 07:16:02 Error read counter KGU = 1 channel = 1
+03.11.2017 07:16:02 Error read counter KGU = 1 channel = 2
+03.11.2017 07:16:02 Error read counter KGU = 1 channel = 3
+03.11.2017 07:16:02 Error read counter KGU = 1 channel = 4
+03.11.2017 07:16:02 Error read counter KGU = 1 channel = 5
+03.11.2017 07:16:02 Error read counter KGU = 1 channel = 6
+03.11.2017 07:16:02 Error read counter KGU = 1 channel = 7
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 0
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 1
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 2
+03.11.2017 07:16:02 Listen sock
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 3
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 4
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 5
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 6
+03.11.2017 07:16:02 Error read counter KGU = 2 channel = 7
+03.11.2017 07:16:02 ## Update History = {"time" : "07:16:02", "date" : "03:11:17", "k1t6" : 20.32, "k1t7" : 7.46, "k1t11" : 7.11, "k1t12" : 6.13, "k1t13" : 278.52, "k1t5" : 28.31, "k1t3" : 57.17, "k1t4" : 54.80, "k1dt5t6" : 7.99, "k1dt3t4" : 2.37, "k1sbr" : 49.15, "k1vanna" : 0, "k1bo1" : 96.16, "k1bo2" : 0, "sbrkgu1" : 49.15, "k2t6" : 21.79, "k2t7" : 7.87, "k2t11" : 7.32, "k2t12" : 7.33, "k2t13" : 288.15, "k2t5" : 27.47, "k2t3" : 54.73, "k2t4" : 48.13, "k2dt5t6" : 5.68, "k2dt3t4" : 6.60, "k2sbr" : 56.90, "k2vanna" : 29.27, "k2bo1" : 87.62, "k2bo2" : 0, "sbrkgu2" : 56.90,  }
+03.11.2017 07:16:02 generate begin
+03.11.2017 07:16:02 generate end
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 0
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 1
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 2
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 3
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 4
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 5
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 6
+03.11.2017 07:16:03 Error read counter KGU = 1 channel = 7
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 0
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 1
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 2
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 3
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 4
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 5
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 6
+03.11.2017 07:16:03 Error read counter KGU = 2 channel = 7
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 0
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 1
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 2
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 3
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 4
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 5
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 6
+03.11.2017 07:16:04 Error read counter KGU = 1 channel = 7
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 0
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 1
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 2
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 3
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 4
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 5
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 6
+03.11.2017 07:16:04 Error read counter KGU = 2 channel = 7
