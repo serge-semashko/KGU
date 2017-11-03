@@ -1,5 +1,6 @@
+//2
 unit uwebserv;
-//fdgsdfgsdf
+
 interface
 
 uses
@@ -504,7 +505,7 @@ begin
        jsonstr:=jsonstr+memobody.Lines[i];
     end;
     jsonstr:=jsonstr+copy(memobody.Lines[memobody.Lines.Count-1],1,length(jsonstr)-1);
-    CurrentData :=jsonstr;
+//    CurrentData :=jsonstr;
     if ((now-prevUpdate)*24*3600<30) then begin
       timer1.Enabled:=true;
       exit;

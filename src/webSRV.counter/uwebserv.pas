@@ -506,10 +506,6 @@ begin
     end;
     jsonstr:=jsonstr+copy(memobody.Lines[memobody.Lines.Count-1],1,length(jsonstr)-1);
 //    CurrentData :=jsonstr;
-    if ((now-prevUpdate)*24*3600<30) then begin
-      timer1.Enabled:=true;
-      exit;
-    end;
     rlist :=tlkjsonlist.Create;
     jnull := tlkjsonnull.Create;
     Data := TlkJSON.ParseText(jsonstr) as TlkJSONobject;
@@ -579,6 +575,11 @@ begin
     HTTP.Free;
     http:= nil;
   end;
+      if ((now-prevUpdate)*24*3600<30) then begin
+      timer1.Enabled:=true;
+      exit;
+    end;
+
   if ((now-prevUpdate)*24*3600>0) then begin
 
       prevUpdate := now;
