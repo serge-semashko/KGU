@@ -1,4 +1,4 @@
-//3
+//4
 unit uwebserv;
 
 interface
@@ -36,6 +36,7 @@ type
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure Restore1Click(Sender: TObject);
     procedure Restart1Click(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
   private
     { Private declarations }
   protected
@@ -139,7 +140,6 @@ begin
  Case Msg.LParam OF  // Проверяем какая кнопка была нажата
   WM_LBUTTONUP,WM_LBUTTONDBLCLK: {Действия, выполняемый по одинарному или двойному щелчку левой кнопки мыши на значке. В нашем случае это просто активация приложения}
                    Begin
-                    Ic(2,Application.Icon);  // Удаляем значок из трея
                     ShowWindow(Application.Handle,SW_SHOW); // Восстанавливаем кнопку программы
                     ShowWindow(Handle,SW_SHOW); // Восстанавливаем окно программы
                    End;
@@ -175,7 +175,6 @@ Procedure THTTPSRVForm.ControlWindow(Var Msg:TMessage);
 Begin
  IF Msg.WParam=SC_MINIMIZE then
   Begin
-   Ic(1,Application.Icon);  // ????????? ?????? ? ????
    ShowWindow(Handle,SW_HIDE);  // ???????? ?????????
    ShowWindow(Application.Handle,SW_HIDE);  // ???????? ?????? ? TaskBar'?
  End else inherited;
@@ -201,6 +200,7 @@ begin
   end else *)
   timer1.OnTimer(self);
   application.Minimize;
+  Ic(1,Application.Icon);  // ????????? ?????? ? ????
 end;
 
 Constructor TTCPHttpDaemon.Create;
@@ -448,23 +448,26 @@ var
   end;
 begin
   timer1.Enabled:=false;
-  if (now-starttime)*24>12   then
+  if (now-starttime)*24>4   then
  begin
-  writetimelog('#### restart application/ Reason: 12 hour uptime ############################################');
+  writetimelog('#### restart application/ Reason: 4 hour uptime ############################################');
 
    FullProgPath := PChar(Application.ExeName);
    // ShowWindow(Form1.handle,SW_HIDE);
    WinExec(FullProgPath, SW_SHOW); // Or better use the CreateProcess function
+   Ic(2,Application.Icon);  // Удаляем значок из трея
    Application.Terminate; // or: Close;
    exit;
  end;
-  if ((now-LastIncomeConnection)*24*60*60>300)   then
+  if ((now-LastIncomeConnection)*24*60*60>30)   then
  begin
   writetimelog('#### restart application reason: No income conenction for 2 min ############################################');
 
    FullProgPath := PChar(Application.ExeName);
    // ShowWindow(Form1.handle,SW_HIDE);
    WinExec(FullProgPath, SW_SHOW); // Or better use the CreateProcess function
+   Ic(2,Application.Icon);  // Удаляем значок из трея
+
    Application.Terminate; // or: Close;
    exit;
  end;
@@ -642,12 +645,11 @@ begin
       histjson.Add(resrecord);
       while histjson.Count>24*60*2 do histjson.Delete(0);
       textfromJson:=GenerateOutText(histjson);
-      if fileexists(extractfilepath(application.ExeName)+'\history.json')
-        then deletefile(extractfilepath(application.ExeName)+'\history.json');
-    //     then ff := tfilestream.Create(extractfilepath(application.ExeName)+'\history.json',fmOpenWrite or fmsharedenynone);
+      if (length(textfromjson) > 1000 ) then begin
+        if fileexists(extractfilepath(application.ExeName)+'\history.json')
+          then deletefile(extractfilepath(application.ExeName)+'\history.json');
+        ff := tfilestream.Create(extractfilepath(application.ExeName)+'\history.json',fmcreate or fmOpenWrite or fmsharedenynone);
 
-      ff := tfilestream.Create(extractfilepath(application.ExeName)+'\history.json',fmcreate or fmOpenWrite or fmsharedenynone);
-      if (length(textfromjson) > 0 ) then begin
         ff.Write(textfromjson[1],length(textfromjson));
         ff.Free;
       end else writelog('Empty history log');
@@ -691,6 +693,8 @@ procedure THTTPSRVForm.FormClose(Sender: TObject;
   var Action: TCloseAction);
 begin
    application.Minimize;
+   Ic(1,Application.Icon);  // ????????? ?????? ? ????
+
    action:=canone;
 end;
 var
@@ -741,6 +745,11 @@ var
   E: Exception;
   wret :word;
   kguNum, chnum : integer;
+procedure THTTPSRVForm.FormDestroy(Sender: TObject);
+begin
+   Ic(2,Application.Icon);  // ????????? ?????? ? ????
+end;
+
 initialization
  writeTimeLog('init  begin');
 

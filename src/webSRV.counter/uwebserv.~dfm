@@ -1,6 +1,6 @@
 object HTTPSRVForm: THTTPSRVForm
-  Left = 309
-  Top = 37
+  Left = 406
+  Top = 105
   Width = 1209
   Height = 920
   Caption = 'WEB srv'
@@ -13,6 +13,7 @@ object HTTPSRVForm: THTTPSRVForm
   OldCreateOrder = False
   OnClose = FormClose
   OnCreate = FormCreate
+  OnDestroy = FormDestroy
   PixelsPerInch = 120
   TextHeight = 16
   object Panel1: TPanel
@@ -47,7 +48,7 @@ object HTTPSRVForm: THTTPSRVForm
       Left = 9
       Top = 64
       Width = 624
-      Height = 21
+      Height = 24
       TabOrder = 0
       Text = 'http://nucloweb.jinr.ru/kgu/Cache/get_data.php?callback=?'
     end
