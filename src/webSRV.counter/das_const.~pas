@@ -430,7 +430,7 @@ exit;
 end;
 Procedure WriteTimeLog(LogData:String);
 begin
-  WriteLog(FormatdateTime('HH:NN:ss ',starttime)+ FormatdateTime('DD MMM HH:NN:SS ',now)+LogData+#10);
+  WriteLog(FormatdateTime('HH:NN ',starttime)+ FormatdateTime('DD/MM/ HH:NN:SS ',now)+LogData+#10);
 end;
 
 

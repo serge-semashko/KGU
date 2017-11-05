@@ -1,6 +1,6 @@
 object HTTPSRVForm: THTTPSRVForm
-  Left = 406
-  Top = 105
+  Left = 437
+  Top = 201
   Width = 1209
   Height = 920
   Caption = 'WEB srv'
@@ -175,5 +175,11 @@ object HTTPSRVForm: THTTPSRVForm
       Caption = 'Restart'
       OnClick = Restart1Click
     end
+  end
+  object tmr1: TTimer
+    Interval = 60000
+    OnTimer = tmr1Timer
+    Left = 512
+    Top = 128
   end
 end
