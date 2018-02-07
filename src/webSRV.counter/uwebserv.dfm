@@ -1,33 +1,33 @@
 object HTTPSRVForm: THTTPSRVForm
-  Left = 437
-  Top = 201
+  Left = 231
+  Top = 0
   Width = 1209
   Height = 920
   Caption = 'WEB srv'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -13
+  Font.Height = -10
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
   OnClose = FormClose
   OnCreate = FormCreate
   OnDestroy = FormDestroy
-  PixelsPerInch = 120
-  TextHeight = 16
+  PixelsPerInch = 96
+  TextHeight = 13
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1191
-    Height = 98
+    Width = 1193
+    Height = 200
     Align = alTop
     TabOrder = 0
     object SpeedButton1: TSpeedButton
-      Left = 16
-      Top = 16
-      Width = 33
-      Height = 33
+      Left = 13
+      Top = 13
+      Width = 27
+      Height = 27
       Glyph.Data = {
         76010000424D7601000000000000760000002800000020000000100000000100
         04000000000000010000120B0000120B00001000000000000000000000000000
@@ -45,90 +45,100 @@ object HTTPSRVForm: THTTPSRVForm
       OnClick = SpeedButton1Click
     end
     object URLED: TEdit
-      Left = 9
-      Top = 64
-      Width = 624
+      Left = 7
+      Top = 52
+      Width = 507
       Height = 24
       TabOrder = 0
       Text = 'http://nucloweb.jinr.ru/kgu/Cache/get_data.php?callback=?'
     end
     object kgu1stdtxt: TStaticText
-      Left = 654
-      Top = 32
-      Width = 251
-      Height = 28
+      Left = 531
+      Top = 26
+      Width = 204
+      Height = 23
       AutoSize = False
       BevelKind = bkSoft
       BorderStyle = sbsSunken
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
-      Font.Height = -18
+      Font.Height = -15
       Font.Name = 'MS Sans Serif'
       Font.Style = []
       ParentFont = False
       TabOrder = 1
     end
     object kgu1freqtxt: TStaticText
-      Left = 654
-      Top = 62
-      Width = 249
-      Height = 28
+      Left = 531
+      Top = 50
+      Width = 203
+      Height = 23
       AutoSize = False
       BevelKind = bkSoft
       BorderStyle = sbsSunken
       Caption = 'kgu1freqtxt'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
-      Font.Height = -18
+      Font.Height = -15
       Font.Name = 'MS Sans Serif'
       Font.Style = []
       ParentFont = False
       TabOrder = 2
     end
     object kgu2stdtxt: TStaticText
-      Left = 911
-      Top = 32
-      Width = 250
-      Height = 28
+      Left = 740
+      Top = 26
+      Width = 203
+      Height = 23
       AutoSize = False
       BevelKind = bkSoft
       BorderStyle = sbsSunken
       Caption = 'kgu2freqtxt'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
-      Font.Height = -18
+      Font.Height = -15
       Font.Name = 'MS Sans Serif'
       Font.Style = []
       ParentFont = False
       TabOrder = 3
     end
     object kgu2freqtxt: TStaticText
-      Left = 910
-      Top = 62
-      Width = 251
-      Height = 28
+      Left = 739
+      Top = 50
+      Width = 204
+      Height = 23
       AutoSize = False
       BevelKind = bkSoft
       BorderStyle = sbsSunken
       Caption = 'kgu2freqtxt'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
-      Font.Height = -18
+      Font.Height = -15
       Font.Name = 'MS Sans Serif'
       Font.Style = []
       ParentFont = False
       TabOrder = 4
     end
+    object Memo1: TMemo
+      Left = 1
+      Top = 91
+      Width = 1191
+      Height = 108
+      Align = alBottom
+      Lines.Strings = (
+        'Memo1')
+      TabOrder = 5
+    end
   end
   object Memo2: TMemo
     Left = 0
-    Top = 98
-    Width = 1191
-    Height = 352
+    Top = 200
+    Width = 1193
+    Height = 286
     Align = alTop
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -18
+    Font.Height = -15
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentFont = False
@@ -136,9 +146,9 @@ object HTTPSRVForm: THTTPSRVForm
   end
   object Memobody: TMemo
     Left = 0
-    Top = 450
-    Width = 1191
-    Height = 425
+    Top = 486
+    Width = 1193
+    Height = 396
     Align = alClient
     Lines.Strings = (
       'Memobody')

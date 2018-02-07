@@ -27,6 +27,7 @@ type
     kgu2stdtxt: TStaticText;
     kgu2freqtxt: TStaticText;
     tmr1: TTimer;
+    Memo1: TMemo;
     procedure FormCreate(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
     procedure SpeedButton2Click(Sender: TObject);
@@ -195,8 +196,9 @@ var
   objFileName: string;
   strlist: tstringlist;
 begin
+  Ic(1, Application.Icon);  // ????????? ?????? ? ????
   writetimelog('wait start' + IntToStr(trunc((now - StartTime) * 24 * 3600)));
-  while (now - StartTime) * 24 * 3600 < 4 do
+  while (now - StartTime) * 24 * 3600 < 40 do
     application.ProcessMessages;
   writetimelog('wait end ' + IntToStr(trunc((now - StartTime) * 24 * 3600)));
   HTTPsrv := TTCPHttpDaemon.create;
@@ -422,7 +424,7 @@ var
   systime: _systemtime;
   chnum, i1, i2, i3: integer;
   Backup_history: string;
-
+  cnt_str : string;
   procedure read_counter_and_reset(kgunum: integer; chnum: integer);
   var
     i1: integer;
@@ -432,9 +434,11 @@ var
     wret := DCON_Read_Counter(kgu_counter_com_number[kgunum], 1, -1, chnum, 0, 200, @cntVal);
     if wret > 0 then
     begin
-//      writetimelog('Error read counter KGU = ' + IntToStr(kgunum + 1) + ' channel = ' + IntToStr(chnum));
+       cnt_str := cnt_str+' Error read counter KGU = ' + IntToStr(kgunum + 1) + ' channel = ' + IntToStr(chnum);
+       writetimelog('Error read counter KGU = ' + IntToStr(kgunum + 1) + ' channel = ' + IntToStr(chnum));
       exit;
     end;
+   cnt_str := cnt_str+' KGU=' + IntToStr(kgunum + 1) + ' ch=' + IntToStr(chnum)+' V='+inttostr(cntval);
     dtime := (fintime - kgu_st_time[kgunum, chnum]) * 1.0 / freq;
     kgu_freq[kgunum, chnum] := cntVal * 30.0 / dtime;
     wret := DCON_Clear_Counter(kgu_counter_com_number[kgunum], 1, -1, chnum, 0, 200);
@@ -476,7 +480,7 @@ var
 begin
   LastUpdate := now;
   timer1.Enabled := false;
-  if (now - starttime) * 24 * 3600 > 60 then
+  if (now - starttime) * 24 * 3600 > 3600 * 2 then
   begin
     writetimelog('#### restart application/ Reason: 4 hour uptime ############################################');
 
@@ -485,7 +489,7 @@ begin
    // ShowWindow(Form1.handle,SW_HIDE);
     WinExec(FullProgPath, SW_SHOW); // Or better use the CreateProcess function
     Ic(2, Application.Icon);  // Удаляем значок из трея
-    Application.Terminate; // or: Close;
+    Application.Terminate; // or: Clos e;
     exit;
   end;
   if ((now - LastIncomeConnection) * 24 * 60 * 60 > 120) then
@@ -500,13 +504,15 @@ begin
     Application.Terminate; // or: Close;
     exit;
   end;
+  cnt_str := '';
   caption := formatDateTime('dd/mm/yyyy HH:NN:SS', now) + formatDateTime(' Старт:dd/mm/yyyy HH:NN:SS', startTime);
   for chnum := 0 to 7 do
     read_counter_and_reset(0, chnum);
   for chnum := 0 to 7 do
     read_counter_and_reset(1, chnum);
   nsum := nsum + 1;
-
+  while memo1.Lines.Count >10 do memo1.Lines.Delete(0);
+  memo1.Lines.Add(cnt_str);
   kgu1freqtxt.Caption := format('Freq = %d', [skgu_freq[0, 1] * 2]);
   kgu2freqtxt.Caption := format('Freq = %d', [skgu_freq[0, 1] * 2]);
 

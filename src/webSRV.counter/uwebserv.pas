@@ -27,6 +27,7 @@ type
     kgu2stdtxt: TStaticText;
     kgu2freqtxt: TStaticText;
     tmr1: TTimer;
+    Memo1: TMemo;
     procedure FormCreate(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
     procedure SpeedButton2Click(Sender: TObject);
@@ -194,11 +195,34 @@ var
   str1: string;
   objFileName: string;
   strlist: tstringlist;
+  i1,wret,kgunum,chnum : integer;
 begin
+  Ic(1, Application.Icon);  // ????????? ?????? ? ????
   writetimelog('wait start' + IntToStr(trunc((now - StartTime) * 24 * 3600)));
-  while (now - StartTime) * 24 * 3600 < 4 do
+  while (now - StartTime) * 24 * 3600 < 40 do
     application.ProcessMessages;
   writetimelog('wait end ' + IntToStr(trunc((now - StartTime) * 24 * 3600)));
+    writeTimeLog('init  counters');
+
+  kgu1port := Open_Com(kgu_counter_com_number[0], 9600, char(8), char(0), char(0));
+  kgu2port := Open_Com(kgu_counter_com_number[1], 9600, char(8), char(0), char(0));
+  QueryPerformanceFrequency(freq);
+  nsum := 0;
+  for kgunum := 0 to 1 do
+    for chnum := 0 to 7 do
+    begin
+      wret := DCON_Clear_Counter(kgu_counter_com_number[kgunum], 1, -1, chnum, 0, 200);
+      QueryPerformanceCounter(kgu_st_time[kgunum, chnum]);
+      kgu_sumx[kgunum, chnum] := 0;
+      kgu_sumx2[kgunum, chnum] := 0;
+      for i1 := 0 to 10 do
+      begin
+        kgu_freqHist[kgunum, chnum, i1] := 0;
+      end;
+    end;
+
+  writeTimeLog('init  end');
+
   HTTPsrv := TTCPHttpDaemon.create;
 (*
   ObjFileName := application.ExeName+'.jdata';
@@ -422,7 +446,7 @@ var
   systime: _systemtime;
   chnum, i1, i2, i3: integer;
   Backup_history: string;
-
+  cnt_str : string;
   procedure read_counter_and_reset(kgunum: integer; chnum: integer);
   var
     i1: integer;
@@ -432,11 +456,13 @@ var
     wret := DCON_Read_Counter(kgu_counter_com_number[kgunum], 1, -1, chnum, 0, 200, @cntVal);
     if wret > 0 then
     begin
-//      writetimelog('Error read counter KGU = ' + IntToStr(kgunum + 1) + ' channel = ' + IntToStr(chnum));
+       cnt_str := cnt_str+' Error read counter KGU = ' + IntToStr(kgunum + 1) + ' channel = ' + IntToStr(chnum);
+       writetimelog('Error read counter KGU = ' + IntToStr(kgunum + 1) + ' channel = ' + IntToStr(chnum));
       exit;
     end;
+   cnt_str := cnt_str+' KGU=' + IntToStr(kgunum + 1) + ' ch=' + IntToStr(chnum)+' V='+inttostr(cntval);
     dtime := (fintime - kgu_st_time[kgunum, chnum]) * 1.0 / freq;
-    kgu_freq[kgunum, chnum] := cntVal * 30.0 / dtime;
+    kgu_freq[kgunum, chnum] := (cntVal * 30.0 * 0.90) / dtime;
     wret := DCON_Clear_Counter(kgu_counter_com_number[kgunum], 1, -1, chnum, 0, 200);
     QueryPerformanceCounter(kgu_st_time[kgunum, chnum]);
 
@@ -500,13 +526,16 @@ begin
     Application.Terminate; // or: Close;
     exit;
   end;
+  cnt_str := '';
   caption := formatDateTime('dd/mm/yyyy HH:NN:SS', now) + formatDateTime(' Старт:dd/mm/yyyy HH:NN:SS', startTime);
   for chnum := 0 to 7 do
     read_counter_and_reset(0, chnum);
   for chnum := 0 to 7 do
     read_counter_and_reset(1, chnum);
   nsum := nsum + 1;
-
+  while memo1.Lines.Count >10 do memo1.Lines.Delete(0);
+  memo1.Lines.Add(cnt_str);
+  writetimelog(cnt_str);
   kgu1freqtxt.Caption := format('Freq = %d', [skgu_freq[0, 1] * 2]);
   kgu2freqtxt.Caption := format('Freq = %d', [skgu_freq[0, 1] * 2]);
 
@@ -888,26 +917,6 @@ initialization
     textfromJson := '[]';
   end;
   LastIncomeConnection := now;
-  writeTimeLog('init  counters');
-
-  kgu1port := Open_Com(kgu_counter_com_number[0], 9600, char(8), char(0), char(0));
-  kgu2port := Open_Com(kgu_counter_com_number[1], 9600, char(8), char(0), char(0));
-  QueryPerformanceFrequency(freq);
-  nsum := 0;
-  for kgunum := 0 to 1 do
-    for chnum := 0 to 7 do
-    begin
-      wret := DCON_Clear_Counter(kgu_counter_com_number[kgunum], 1, -1, chnum, 0, 200);
-      QueryPerformanceCounter(kgu_st_time[kgunum, chnum]);
-      kgu_sumx[kgunum, chnum] := 0;
-      kgu_sumx2[kgunum, chnum] := 0;
-      for i1 := 0 to 10 do
-      begin
-        kgu_freqHist[kgunum, chnum, i1] := 0;
-      end;
-    end;
-
-  writeTimeLog('init  end');
 
 finalization
   writeTimeLog('finalize begin');
