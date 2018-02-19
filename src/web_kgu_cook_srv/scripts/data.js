@@ -22,6 +22,72 @@ var graphs2 = [
     //select 0 пусковой
     [
         {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T181",
+            "valueField": "k1t181",
+            "fillAlphas": 0
+        },
+        {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T182",
+            "valueField": "k1t182",
+            "fillAlphas": 0
+        },
+        {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T191",
+            "valueField": "k1t191",
+            "fillAlphas": 0
+        },
+        {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T192",
+            "valueField": "k1t192",
+            "fillAlphas": 0
+        },
+        {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T201",
+            "valueField": "k1t201",
+            "fillAlphas": 0
+        },
+        {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T202",
+            "valueField": "k1t202",
+            "fillAlphas": 0
+        },
+        {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T211",
+            "valueField": "k1t211",
+            "fillAlphas": 0
+        },
+        {
+            "bullet": "round", "lineThickness": 3,
+            "bulletBorderThickness": 1,
+            "hideBulletsCount": 1,
+            "title": "T212",
+            "valueField": "k1t212",
+            "fillAlphas": 0
+        },
+
+
+        {
             "lineColor": "#29A2CC",
             "bullet": "round", "lineThickness": 3,
             "bulletBorderThickness": 1,
