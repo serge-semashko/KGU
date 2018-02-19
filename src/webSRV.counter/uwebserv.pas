@@ -199,7 +199,7 @@ var
 begin
   Ic(1, Application.Icon);  // ????????? ?????? ? ????
   writetimelog('wait start' + IntToStr(trunc((now - StartTime) * 24 * 3600)));
-  while (now - StartTime) * 24 * 3600 < 40 do
+  while (now - StartTime) * 24 * 3600 < 20 do
     application.ProcessMessages;
   writetimelog('wait end ' + IntToStr(trunc((now - StartTime) * 24 * 3600)));
     writeTimeLog('init  counters');
@@ -612,7 +612,7 @@ begin
     offset := 0;
     h := 0;
     memo2.Lines.Clear;
-    while (h < t_id.Count) do
+    while (h < t_id.Count) do                                                      
     begin
       memo2.Lines.Add(IntToStr(h));
       id := (t_id.Child[h] as tlkjsonnumber).Value;
@@ -630,12 +630,16 @@ begin
             (t_vv.Child[position] as tlkjsonstring).Value := format('%d', [skgu_freq[0, 1]]);
           if (id = 47) then
             (t_vv.Child[position] as tlkjsonstring).Value := format('%d', [skgu_freq[0, 2]]);
+          if (id = 51) then
+            (t_vv.Child[position] as tlkjsonstring).Value := format('%d', [skgu_freq[0, 3]]);
           if (id = 95) then
             (t_vv.Child[position] as tlkjsonstring).Value := format('%d', [skgu_freq[1, 0]]);
           if (id = 96) then
             (t_vv.Child[position] as tlkjsonstring).Value := format('%d', [skgu_freq[1, 1]]);
           if (id = 97) then
             (t_vv.Child[position] as tlkjsonstring).Value := format('%d', [skgu_freq[1, 2]]);
+          if (id = 101) then
+            (t_vv.Child[position] as tlkjsonstring).Value := format('%d', [skgu_freq[1, 3]]);
           s := (t_vv.Child[position] as tlkjsonstring).Value;
           s := ansireplacestr(s, ',', '.');
           pointpos := pos('.', s);
