@@ -677,46 +677,103 @@ begin
 //    var k1t7 = toChart(r[26]);
     AddVarToRecord('time', '"' + formatdatetime('hh:nn:ss', now) + '"');
     AddVarToRecord('date', '"' + formatdatetime('dd:mm:yy', now) + '"');
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                        KGU-1                                                                      ///
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Обороты
+    AddVarToRecord('k1td1', r[45]);
+    AddVarToRecord('k1td2', r[46]);
+    AddVarToRecord('k1td3', r[47]);
+    AddVarToRecord('k1pg', r[51]);
+//Уровни
+    AddVarToRecord('k1sbr', r[35]);
+    AddVarToRecord('k1vanna', r[36]);
+    AddVarToRecord('k1bo1', r[32]);
+    AddVarToRecord('k1bo2', r[33]);
+//Температуры
+    AddVarToRecord('k1t1', r[5]);
+    AddVarToRecord('k1t5', r[11]);
+    AddVarToRecord('k1t9', r[23]);
+    AddVarToRecord('k1t13', r[111]);
+
+    AddVarToRecord('k1t2', r[7]);
     AddVarToRecord('k1t6', r[12]);
+    AddVarToRecord('k1t10', r[24]);
+
+    AddVarToRecord('k1t3', r[9]);
     AddVarToRecord('k1t7', r[26]);
     AddVarToRecord('k1t11', r[28]);
-    AddVarToRecord('k1t12', r[29]);
-    AddVarToRecord('k1t13', r[111]);
-    AddVarToRecord('k1t5', r[11]);
-    AddVarToRecord('k1t3', r[9]);
+
     AddVarToRecord('k1t4', r[10]);
+    AddVarToRecord('k1t8', r[27]);
+    AddVarToRecord('k1t12', r[29]);
+
+//Температуры на БО1 kgu 1
+    AddVarToRecord('k1t181', r[14]);
+    AddVarToRecord('k1t191', r[15]);
+    AddVarToRecord('k1t201', r[16]);
+    AddVarToRecord('k1t211', r[17]);
+//Температуры на БО2 kgu 1
+    AddVarToRecord('k1t182', r[18]);
+    AddVarToRecord('k1t192', r[19]);
+    AddVarToRecord('k1t202', r[20]);
+    AddVarToRecord('k1t212', r[21]);
+
     r1 := strToFloat(r[11]) - strtofloat(r[12]);
     AddVarToRecord('k1dt5t6', format('%f', [r1]));
     r1 := strToFloat(r[9]) - strtofloat(r[10]);
     AddVarToRecord('k1dt3t4', format('%f', [r1]));
-    AddVarToRecord('k1sbr', r[35]);
-    AddVarToRecord('k1vanna', r[34]);
-    AddVarToRecord('k1bo1', r[32]);
-    AddVarToRecord('k1bo2', r[33]);
-    AddVarToRecord('sbrkgu1', r[35]);
 
-    AddVarToRecord('k2t6', r[62]);
-    AddVarToRecord('k2t7', r[76]);
-    AddVarToRecord('k2t11', r[78]);
-    AddVarToRecord('k2t12', r[79]);
-    AddVarToRecord('k2t13', r[112]);
-    AddVarToRecord('k2t5', r[61]);
-    AddVarToRecord('k2t3', r[59]);
-    AddVarToRecord('k2t4', r[60]);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                        KGU-2                                                                      ///
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Обороты
+    AddVarToRecord('k1td1', r[95]);
+    AddVarToRecord('k1td2', r[96]);
+    AddVarToRecord('k1td3', r[97]);
+    AddVarToRecord('k1pg', r[101]);
+//Уровни
+    AddVarToRecord('k1sbr', r[85]);
+    AddVarToRecord('k1vanna', r[86]);
+    AddVarToRecord('k1bo1', r[82]);
+    AddVarToRecord('k1bo2', r[83]);
+//Температуры
+    AddVarToRecord('k1t1', r[55]);
+    AddVarToRecord('k1t5', r[61]);
+    AddVarToRecord('k1t9', r[73]);
+    AddVarToRecord('k1t13', r[112]);
+
+    AddVarToRecord('k1t2', r[57]);
+    AddVarToRecord('k1t6', r[62]);
+    AddVarToRecord('k1t10', r[74]);
+
+    AddVarToRecord('k1t3', r[59]);
+    AddVarToRecord('k1t7', r[76]);
+    AddVarToRecord('k1t11', r[78]);
+
+    AddVarToRecord('k1t4', r[60]);
+    AddVarToRecord('k1t8', r[77]);
+    AddVarToRecord('k1t12', r[79]);
+
+//Температуры на БО1 kgu 1
+    AddVarToRecord('k1t181', r[64]);
+    AddVarToRecord('k1t191', r[65]);
+    AddVarToRecord('k1t201', r[66]);
+    AddVarToRecord('k1t211', r[67]);
+//Температуры на БО2 kgu 1
+    AddVarToRecord('k1t182', r[68]);
+    AddVarToRecord('k1t192', r[69]);
+    AddVarToRecord('k1t202', r[70]);
+    AddVarToRecord('k1t212', r[71]);
 
     //        k2sdt5t6 = k2dt5t6.toString();
     r1 := strToFloat(r[61]) - strtofloat(r[62]);
     AddVarToRecord('k2dt5t6', format('%f', [r1]));
-
     //        k2sdt3t4 = k2dt3t4.toString();
     r1 := strToFloat(r[59]) - strtofloat(r[60]);
     AddVarToRecord('k2dt3t4', format('%f', [r1]));
 
-    AddVarToRecord('k2sbr', r[85]);
-    AddVarToRecord('k2vanna', r[84]);
-    AddVarToRecord('k2bo1', r[82]);
-    AddVarToRecord('k2bo2', r[83]);
-    AddVarToRecord('sbrkgu2', r[85]);
 
 
       //amchart process
