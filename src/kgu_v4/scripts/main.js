@@ -654,6 +654,8 @@ window.onload = function () {
             spacing: 10,
             markerSize: 14,
             fontSize: 12,
+            position:"right"
+
             //            "useGraphSettings": true
         },
         "dataProvider": chartData3,
