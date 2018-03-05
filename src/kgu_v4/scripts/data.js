@@ -26,7 +26,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T181",
-            "valueField": "k2t181",
+            "valueField": "k1t181",
             "fillAlphas": 0,
             "hidden": true
 
@@ -36,7 +36,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T182",
-            "valueField": "k2t182",
+            "valueField": "k1t182",
             "fillAlphas": 0,
             "hidden": true,
         }, {
@@ -45,7 +45,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T191",
-            "valueField": "k2t191",
+            "valueField": "k1t191",
             "fillAlphas": 0,
             "hidden": true
 
@@ -55,7 +55,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T192",
-            "valueField": "k2t192",
+            "valueField": "k1t192",
             "fillAlphas": 0,
             "hidden": true
 
@@ -65,7 +65,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T201",
-            "valueField": "k2t201",
+            "valueField": "k1t201",
             "hidden": true,
             "fillAlphas": 0
 
@@ -75,7 +75,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T202",
-            "valueField": "k2t202",
+            "valueField": "k1t202",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -84,7 +84,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T211",
-            "valueField": "k2t211",
+            "valueField": "k1t211",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -93,7 +93,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T212",
-            "valueField": "k2t212",
+            "valueField": "k1t212",
             "hidden": true,
             "fillAlphas": 0
         },
@@ -106,7 +106,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T6",
-            "valueField": "k2t6",
+            "valueField": "k1t6",
             "fillAlphas": 0
         }, {
             "lineColor": "#250acb",
@@ -115,7 +115,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T11",
-            "valueField": "k2t11",
+            "valueField": "k1t11",
             "fillAlphas": 0
         }, {
             "lineColor": "#66CC00",
@@ -124,7 +124,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T12",
-            "valueField": "k2t12",
+            "valueField": "k1t12",
             "fillAlphas": 0
         }, {
             "lineColor": "#FF3300",
@@ -133,7 +133,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T13",
-            "valueField": "k2t13",
+            "valueField": "k1t13",
             disableed: true,
             visible: false,
             "fillAlphas": 0
@@ -147,7 +147,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T181",
-            "valueField": "k2t181",
+            "valueField": "k1t181",
             "fillAlphas": 0,
             "hidden": true
 
@@ -157,7 +157,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T182",
-            "valueField": "k2t182",
+            "valueField": "k1t182",
             "fillAlphas": 0,
             "hidden": true,
         }, {
@@ -166,7 +166,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T191",
-            "valueField": "k2t191",
+            "valueField": "k1t191",
             "fillAlphas": 0,
             "hidden": true
 
@@ -176,7 +176,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T192",
-            "valueField": "k2t192",
+            "valueField": "k1t192",
             "fillAlphas": 0,
             "hidden": true
 
@@ -186,7 +186,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T201",
-            "valueField": "k2t201",
+            "valueField": "k1t201",
             "hidden": true,
             "fillAlphas": 0
 
@@ -196,7 +196,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T202",
-            "valueField": "k2t202",
+            "valueField": "k1t202",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -205,7 +205,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T211",
-            "valueField": "k2t211",
+            "valueField": "k1t211",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -214,7 +214,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T212",
-            "valueField": "k2t212",
+            "valueField": "k1t212",
             "hidden": true,
             "fillAlphas": 0
         },
@@ -227,7 +227,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T6",
-            "valueField": "k2t6",
+            "valueField": "k1t6",
             "fillAlphas": 0
         }, {
             "lineColor": "#250acb",
@@ -236,7 +236,7 @@ var graphs2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T7",
-            "valueField": "k2t7",
+            "valueField": "k1t7",
             "fillAlphas": 0
         },
     ],
@@ -250,7 +250,7 @@ var graphs2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Сборник",
-        "valueField": "k2sbr",
+        "valueField": "k1sbr",
         "fillAlphas": 0
     }, {
         "lineColor": "#66CC00",
@@ -259,7 +259,7 @@ var graphs2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Ванна",
-        "valueField": "k2vanna",
+        "valueField": "k1vanna",
         "fillAlphas": 0
     }, {
         "lineColor": "#FF3300",
@@ -268,7 +268,7 @@ var graphs2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "БО1",
-        "valueField": "k2bo1",
+        "valueField": "k1bo1",
         disableed: true,
         visible: false,
         "fillAlphas": 0
@@ -279,7 +279,7 @@ var graphs2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "БО2",
-        "valueField": "k2bo2",
+        "valueField": "k1bo2",
         disableed: true,
         visible: false,
         "fillAlphas": 0
@@ -293,7 +293,7 @@ var graphs2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Сборник КГУ1",
-        "valueField": "k2sbr",
+        "valueField": "k1sbr",
         "fillAlphas": 0
     }, {
         "lineColor": "#66CC00",
@@ -314,7 +314,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T181",
-            "valueField": "k2t181",
+            "valueField": "k1t181",
             "fillAlphas": 0,
             "hidden": true
 
@@ -324,7 +324,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T182",
-            "valueField": "k2t182",
+            "valueField": "k1t182",
             "fillAlphas": 0,
             "hidden": true,
         }, {
@@ -333,7 +333,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T191",
-            "valueField": "k2t191",
+            "valueField": "k1t191",
             "fillAlphas": 0,
             "hidden": true
 
@@ -343,7 +343,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T192",
-            "valueField": "k2t192",
+            "valueField": "k1t192",
             "fillAlphas": 0,
             "hidden": true
 
@@ -353,7 +353,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T201",
-            "valueField": "k2t201",
+            "valueField": "k1t201",
             "hidden": true,
             "fillAlphas": 0
 
@@ -363,7 +363,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T202",
-            "valueField": "k2t202",
+            "valueField": "k1t202",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -372,7 +372,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T211",
-            "valueField": "k2t211",
+            "valueField": "k1t211",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -381,7 +381,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T212",
-            "valueField": "k2t212",
+            "valueField": "k1t212",
             "hidden": true,
             "fillAlphas": 0
         },
@@ -394,7 +394,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T6",
-            "valueField": "k2t6",
+            "valueField": "k1t6",
             "fillAlphas": 0
         }, {
             "lineColor": "#250acb",
@@ -403,7 +403,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T11",
-            "valueField": "k2t11",
+            "valueField": "k1t11",
             "fillAlphas": 0
         }, {
             "lineColor": "#66CC00",
@@ -412,7 +412,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T12",
-            "valueField": "k2t12",
+            "valueField": "k1t12",
             "fillAlphas": 0
         }, {
             "lineColor": "#FF3300",
@@ -421,7 +421,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T13",
-            "valueField": "k2t13",
+            "valueField": "k1t13",
             disableed: true,
             visible: false,
             "fillAlphas": 0
@@ -435,7 +435,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T181",
-            "valueField": "k2t181",
+            "valueField": "k1t181",
             "fillAlphas": 0,
             "hidden": true
 
@@ -445,7 +445,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T182",
-            "valueField": "k2t182",
+            "valueField": "k1t182",
             "fillAlphas": 0,
             "hidden": true,
         }, {
@@ -454,7 +454,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T191",
-            "valueField": "k2t191",
+            "valueField": "k1t191",
             "fillAlphas": 0,
             "hidden": true
 
@@ -464,7 +464,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T192",
-            "valueField": "k2t192",
+            "valueField": "k1t192",
             "fillAlphas": 0,
             "hidden": true
 
@@ -474,7 +474,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T201",
-            "valueField": "k2t201",
+            "valueField": "k1t201",
             "hidden": true,
             "fillAlphas": 0
 
@@ -484,7 +484,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T202",
-            "valueField": "k2t202",
+            "valueField": "k1t202",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -493,7 +493,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T211",
-            "valueField": "k2t211",
+            "valueField": "k1t211",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -502,7 +502,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T212",
-            "valueField": "k2t212",
+            "valueField": "k1t212",
             "hidden": true,
             "fillAlphas": 0
         },
@@ -515,7 +515,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T6",
-            "valueField": "k2t6",
+            "valueField": "k1t6",
             "fillAlphas": 0
         }, {
             "lineColor": "#250acb",
@@ -524,7 +524,7 @@ var graphs2_1 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T7",
-            "valueField": "k2t7",
+            "valueField": "k1t7",
             "fillAlphas": 0
         },
     ],
@@ -538,7 +538,7 @@ var graphs2_1 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Сборник",
-        "valueField": "k2sbr",
+        "valueField": "k1sbr",
         "fillAlphas": 0
     }, {
         "lineColor": "#66CC00",
@@ -547,7 +547,7 @@ var graphs2_1 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Ванна",
-        "valueField": "k2vanna",
+        "valueField": "k1vanna",
         "fillAlphas": 0
     }, {
         "lineColor": "#FF3300",
@@ -556,7 +556,7 @@ var graphs2_1 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "БО1",
-        "valueField": "k2bo1",
+        "valueField": "k1bo1",
         disableed: true,
         visible: false,
         "fillAlphas": 0
@@ -567,7 +567,7 @@ var graphs2_1 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "БО2",
-        "valueField": "k2bo2",
+        "valueField": "k1bo2",
         disableed: true,
         visible: false,
         "fillAlphas": 0
@@ -581,7 +581,7 @@ var graphs2_1 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Сборник КГУ1",
-        "valueField": "k2sbr",
+        "valueField": "k1sbr",
         "fillAlphas": 0
     }, {
         "lineColor": "#66CC00",
@@ -602,7 +602,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T181",
-            "valueField": "k2t181",
+            "valueField": "k1t181",
             "fillAlphas": 0,
             "hidden": true
 
@@ -612,7 +612,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T182",
-            "valueField": "k2t182",
+            "valueField": "k1t182",
             "fillAlphas": 0,
             "hidden": true,
         }, {
@@ -621,7 +621,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T191",
-            "valueField": "k2t191",
+            "valueField": "k1t191",
             "fillAlphas": 0,
             "hidden": true
 
@@ -631,7 +631,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T192",
-            "valueField": "k2t192",
+            "valueField": "k1t192",
             "fillAlphas": 0,
             "hidden": true
 
@@ -641,7 +641,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T201",
-            "valueField": "k2t201",
+            "valueField": "k1t201",
             "hidden": true,
             "fillAlphas": 0
 
@@ -651,7 +651,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T202",
-            "valueField": "k2t202",
+            "valueField": "k1t202",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -660,7 +660,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T211",
-            "valueField": "k2t211",
+            "valueField": "k1t211",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -669,7 +669,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T212",
-            "valueField": "k2t212",
+            "valueField": "k1t212",
             "hidden": true,
             "fillAlphas": 0
         },
@@ -682,7 +682,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T6",
-            "valueField": "k2t6",
+            "valueField": "k1t6",
             "fillAlphas": 0
         }, {
             "lineColor": "#250acb",
@@ -691,7 +691,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T11",
-            "valueField": "k2t11",
+            "valueField": "k1t11",
             "fillAlphas": 0
         }, {
             "lineColor": "#66CC00",
@@ -700,7 +700,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T12",
-            "valueField": "k2t12",
+            "valueField": "k1t12",
             "fillAlphas": 0
         }, {
             "lineColor": "#FF3300",
@@ -709,7 +709,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T13",
-            "valueField": "k2t13",
+            "valueField": "k1t13",
             disableed: true,
             visible: false,
             "fillAlphas": 0
@@ -723,7 +723,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T181",
-            "valueField": "k2t181",
+            "valueField": "k1t181",
             "fillAlphas": 0,
             "hidden": true
 
@@ -733,7 +733,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T182",
-            "valueField": "k2t182",
+            "valueField": "k1t182",
             "fillAlphas": 0,
             "hidden": true,
         }, {
@@ -742,7 +742,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T191",
-            "valueField": "k2t191",
+            "valueField": "k1t191",
             "fillAlphas": 0,
             "hidden": true
 
@@ -752,7 +752,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T192",
-            "valueField": "k2t192",
+            "valueField": "k1t192",
             "fillAlphas": 0,
             "hidden": true
 
@@ -762,7 +762,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T201",
-            "valueField": "k2t201",
+            "valueField": "k1t201",
             "hidden": true,
             "fillAlphas": 0
 
@@ -772,7 +772,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T202",
-            "valueField": "k2t202",
+            "valueField": "k1t202",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -781,7 +781,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T211",
-            "valueField": "k2t211",
+            "valueField": "k1t211",
             "hidden": true,
             "fillAlphas": 0
         }, {
@@ -790,7 +790,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T212",
-            "valueField": "k2t212",
+            "valueField": "k1t212",
             "hidden": true,
             "fillAlphas": 0
         },
@@ -803,7 +803,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T6",
-            "valueField": "k2t6",
+            "valueField": "k1t6",
             "fillAlphas": 0
         }, {
             "lineColor": "#250acb",
@@ -812,7 +812,7 @@ var graphs2_2 = [
             "bulletBorderThickness": 1,
             "hideBulletsCount": 1,
             "title": "T7",
-            "valueField": "k2t7",
+            "valueField": "k1t7",
             "fillAlphas": 0
         },
     ],
@@ -826,7 +826,7 @@ var graphs2_2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Сборник",
-        "valueField": "k2sbr",
+        "valueField": "k1sbr",
         "fillAlphas": 0
     }, {
         "lineColor": "#66CC00",
@@ -835,7 +835,7 @@ var graphs2_2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Ванна",
-        "valueField": "k2vanna",
+        "valueField": "k1vanna",
         "fillAlphas": 0
     }, {
         "lineColor": "#FF3300",
@@ -844,7 +844,7 @@ var graphs2_2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "БО1",
-        "valueField": "k2bo1",
+        "valueField": "k1bo1",
         disableed: true,
         visible: false,
         "fillAlphas": 0
@@ -855,7 +855,7 @@ var graphs2_2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "БО2",
-        "valueField": "k2bo2",
+        "valueField": "k1bo2",
         disableed: true,
         visible: false,
         "fillAlphas": 0
@@ -869,7 +869,7 @@ var graphs2_2 = [
         "bulletBorderThickness": 1,
         "hideBulletsCount": 1,
         "title": "Сборник КГУ1",
-        "valueField": "k2sbr",
+        "valueField": "k1sbr",
         "fillAlphas": 0
     }, {
         "lineColor": "#66CC00",
