@@ -683,7 +683,7 @@ begin
 //Обороты
     AddVarToRecord('k1td1', r[45]);
     AddVarToRecord('k1td2', r[46]);
-    AddVarToRecord('k1td3', r[47);
+    AddVarToRecord('k1td3', r[47]);
     AddVarToRecord('k1pg', r[51]);
 //Уровни
     AddVarToRecord('k1sbr', r[35]);
@@ -691,20 +691,20 @@ begin
     AddVarToRecord('k1bo1', r[32]);
     AddVarToRecord('k1bo2', r[33]);
 //Температуры
-    AddVarToRecord('k1t1, r[5]);
+    AddVarToRecord('k1t1', r[5]);
     AddVarToRecord('k1t5', r[11]);
     AddVarToRecord('k1t9', r[23]);
     AddVarToRecord('k1t13', r[111]);
 
-    AddVarToRecord('k1t2, r[7]);
+    AddVarToRecord('k1t2', r[7]);
     AddVarToRecord('k1t6', r[12]);
     AddVarToRecord('k1t10', r[24]);
 
-    AddVarToRecord('k1t3, r[9]);
+    AddVarToRecord('k1t3', r[9]);
     AddVarToRecord('k1t7', r[26]);
     AddVarToRecord('k1t11', r[28]);
 
-    AddVarToRecord('k1t4, r[10]);
+    AddVarToRecord('k1t4', r[10]);
     AddVarToRecord('k1t8', r[27]);
     AddVarToRecord('k1t12', r[29]);
 
@@ -731,7 +731,7 @@ begin
 //Обороты
     AddVarToRecord('k1td1', r[95]);
     AddVarToRecord('k1td2', r[96]);
-    AddVarToRecord('k1td3', r[97);
+    AddVarToRecord('k1td3', r[97]);
     AddVarToRecord('k1pg', r[101]);
 //Уровни
     AddVarToRecord('k1sbr', r[85]);
@@ -739,20 +739,20 @@ begin
     AddVarToRecord('k1bo1', r[82]);
     AddVarToRecord('k1bo2', r[83]);
 //Температуры
-    AddVarToRecord('k1t1, r[55]);
+    AddVarToRecord('k1t1', r[55]);
     AddVarToRecord('k1t5', r[61]);
     AddVarToRecord('k1t9', r[73]);
     AddVarToRecord('k1t13', r[112]);
 
-    AddVarToRecord('k1t2, r[57]);
+    AddVarToRecord('k1t2', r[57]);
     AddVarToRecord('k1t6', r[62]);
     AddVarToRecord('k1t10', r[74]);
 
-    AddVarToRecord('k1t3, r[59]);
+    AddVarToRecord('k1t3', r[59]);
     AddVarToRecord('k1t7', r[76]);
     AddVarToRecord('k1t11', r[78]);
 
-    AddVarToRecord('k1t4, r[60]);
+    AddVarToRecord('k1t4', r[60]);
     AddVarToRecord('k1t8', r[77]);
     AddVarToRecord('k1t12', r[79]);
 

@@ -729,43 +729,43 @@ begin
 //                        KGU-2                                                                      ///
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Обороты
-    AddVarToRecord('k1td1', r[95]);
-    AddVarToRecord('k1td2', r[96]);
-    AddVarToRecord('k1td3', r[97]);
-    AddVarToRecord('k1pg', r[101]);
+    AddVarToRecord('k2td1', r[95]);
+    AddVarToRecord('k2td2', r[96]);
+    AddVarToRecord('k2td3', r[97]);
+    AddVarToRecord('k2pg', r[101]);
 //Уровни
-    AddVarToRecord('k1sbr', r[85]);
-    AddVarToRecord('k1vanna', r[86]);
-    AddVarToRecord('k1bo1', r[82]);
-    AddVarToRecord('k1bo2', r[83]);
+    AddVarToRecord('k2sbr', r[85]);
+    AddVarToRecord('k2vanna', r[86]);
+    AddVarToRecord('k2bo1', r[82]);
+    AddVarToRecord('k2bo2', r[83]);
 //Температуры
-    AddVarToRecord('k1t1', r[55]);
-    AddVarToRecord('k1t5', r[61]);
-    AddVarToRecord('k1t9', r[73]);
-    AddVarToRecord('k1t13', r[112]);
+    AddVarToRecord('k2t1', r[55]);
+    AddVarToRecord('k2t5', r[61]);
+    AddVarToRecord('k2t9', r[73]);
+    AddVarToRecord('k2t13', r[112]);
 
-    AddVarToRecord('k1t2', r[57]);
-    AddVarToRecord('k1t6', r[62]);
-    AddVarToRecord('k1t10', r[74]);
+    AddVarToRecord('k2t2', r[57]);
+    AddVarToRecord('k2t6', r[62]);
+    AddVarToRecord('k2t10', r[74]);
 
-    AddVarToRecord('k1t3', r[59]);
-    AddVarToRecord('k1t7', r[76]);
-    AddVarToRecord('k1t11', r[78]);
+    AddVarToRecord('k2t3', r[59]);
+    AddVarToRecord('k2t7', r[76]);
+    AddVarToRecord('k2t11', r[78]);
 
-    AddVarToRecord('k1t4', r[60]);
-    AddVarToRecord('k1t8', r[77]);
-    AddVarToRecord('k1t12', r[79]);
+    AddVarToRecord('k2t4', r[60]);
+    AddVarToRecord('k2t8', r[77]);
+    AddVarToRecord('k2t12', r[79]);
 
-//Температуры на БО1 kgu 1
-    AddVarToRecord('k1t181', r[64]);
-    AddVarToRecord('k1t191', r[65]);
-    AddVarToRecord('k1t201', r[66]);
-    AddVarToRecord('k1t211', r[67]);
-//Температуры на БО2 kgu 1
-    AddVarToRecord('k1t182', r[68]);
-    AddVarToRecord('k1t192', r[69]);
-    AddVarToRecord('k1t202', r[70]);
-    AddVarToRecord('k1t212', r[71]);
+//Температуры на БО1 kgu 2
+    AddVarToRecord('k2t181', r[64]);
+    AddVarToRecord('k2t191', r[65]);
+    AddVarToRecord('k2t201', r[66]);
+    AddVarToRecord('k2t211', r[67]);
+//Температуры на БО2 kgu 2
+    AddVarToRecord('k2t182', r[68]);
+    AddVarToRecord('k2t192', r[69]);
+    AddVarToRecord('k2t202', r[70]);
+    AddVarToRecord('k2t212', r[71]);
 
     //        k2sdt5t6 = k2dt5t6.toString();
     r1 := strToFloat(r[61]) - strtofloat(r[62]);
