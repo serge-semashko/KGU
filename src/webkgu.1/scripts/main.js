@@ -185,43 +185,43 @@ function processData(t) {
 //                        KGU-2                                                                      ///
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Обороты
-    var k1td1 = toChart(r[95]);
-    var k1td2 = toChart(r[96]);
-    var k1td3 = toChart(r[97]);
-    var k1pg = toChart(r[101]);
+    var k2td1 = toChart(r[95]);
+    var k2td2 = toChart(r[96]);
+    var k2td3 = toChart(r[97]);
+    var k2pg = toChart(r[101]);
 //Уровни
-    var k1sbr = toChart(r[85]);
-    var k1vanna = toChart(r[86]);
-    var k1bo1 = toChart(r[82]);
-    var k1bo2 = toChart(r[83]);
+    var k2sbr = toChart(r[85]);
+    var k2vanna = toChart(r[86]);
+    var k2bo1 = toChart(r[82]);
+    var k2bo2 = toChart(r[83]);
 //Температуры
-    var k1t1 = toChart(r[55]);
-    var k1t5 = toChart(r[61]);
-    var k1t9 = toChart(r[73]);
-    var k1t13 = toChart(r[112]);
+    var k2t1 = toChart(r[55]);
+    var k2t5 = toChart(r[61]);
+    var k2t9 = toChart(r[73]);
+    var k2t13 = toChart(r[112]);
 
-    var k1t2 = toChart(r[57]);
-    var k1t6 = toChart(r[62]);
-    var k1t10 = toChart(r[74]);
+    var k2t2 = toChart(r[57]);
+    var k2t6 = toChart(r[62]);
+    var k2t10 = toChart(r[74]);
 
-    var k1t3 = toChart(r[59]);
-    var k1t7 = toChart(r[76]);
-    var k1t11 = toChart(r[78]);
+    var k2t3 = toChart(r[59]);
+    var k2t7 = toChart(r[76]);
+    var k2t11 = toChart(r[78]);
 
-    var k1t4 = toChart(r[60]);
-    var k1t8 = toChart(r[77]);
-    var k1t12 = toChart(r[79]);
+    var k2t4 = toChart(r[60]);
+    var k2t8 = toChart(r[77]);
+    var k2t12 = toChart(r[79]);
 
 //Температуры на БО1 kgu 1
-    var k1t181 = toChart(r[64]);
-    var k1t191 = toChart(r[65]);
-    var k1t201 = toChart(r[66]);
-    var k1t211 = toChart(r[67]);
+    var k2t181 = toChart(r[64]);
+    var k2t191 = toChart(r[65]);
+    var k2t201 = toChart(r[66]);
+    var k2t211 = toChart(r[67]);
 //Температуры на БО2 kgu 1
-    var k1t182 = toChart(r[68]);
-    var k1t192 = toChart(r[69]);
-    var k1t202 = toChart(r[70]);
-    var k1t212 = toChart(r[71]);
+    var k2t182 = toChart(r[68]);
+    var k2t192 = toChart(r[69]);
+    var k2t202 = toChart(r[70]);
+    var k21t212 = toChart(r[71]);
 
     
     var k2dt5t6 = k2t5 - k2t6;
@@ -237,8 +237,6 @@ function processData(t) {
 
     newDatam2 = {
         time: argx,
-        sbrkgu1: sbrkgu1,
-        sbrkgu2: sbrkgu2,
 
         k1t6: k1t6,
         k1t7: k1t7,
@@ -288,8 +286,6 @@ function processData(t) {
 
     newDatam2_1 = {
         time: argx,
-        sbrkgu1: sbrkgu1,
-        sbrkgu2: sbrkgu2,
 
         k1t6: k1t6,
         k1t7: k1t7,
@@ -317,10 +313,7 @@ function processData(t) {
     };
     newDatam2_2 = {
         time: argx,
-        sbrkgu1: sbrkgu1,
-        sbrkgu2: sbrkgu2,
-
-        k1t6: k1t6,
+         k1t6: k1t6,
         k1t7: k1t7,
         k1t11: k1t11,
         k1t12: k1t12,
@@ -348,10 +341,7 @@ function processData(t) {
 
     newDatam3 = {
         time: argx,
-        sbrkgu1: sbrkgu1,
-        sbrkgu2: sbrkgu2,
-
-        k1t6: k1t6,
+         k1t6: k1t6,
         k1t7: k1t7,
         k1t11: k1t11,
         k1t12: k1t12,
@@ -378,10 +368,7 @@ function processData(t) {
 
     newDatam3_1 = {
         time: argx,
-        sbrkgu1: sbrkgu1,
-        sbrkgu2: sbrkgu2,
-
-        k1t6: k1t6,
+         k1t6: k1t6,
         k1t7: k1t7,
         k1t11: k1t11,
         k1t12: k1t12,
@@ -407,10 +394,7 @@ function processData(t) {
     };
     newDatam3_2 = {
         time: argx,
-        sbrkgu1: sbrkgu1,
-        sbrkgu2: sbrkgu2,
-
-        k1t6: k1t6,
+         k1t6: k1t6,
         k1t7: k1t7,
         k1t11: k1t11,
         k1t12: k1t12,
