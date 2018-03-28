@@ -1,0 +1,56 @@
+---------------------------------------------------------------------
+1. Original tcpdump home page
+   http://www.tcpdump.org/
+
+---------------------------------------------------------------------
+2. Microolap tcpdump for windows home page 
+   http://www.microolap.com/products/network/tcpdump/
+   current version 4.9.2 ( 2017.12.19 )
+
+---------------------------------------------------------------------
+3. Article: "Making a Connection with tcpdump, Part I"
+   http://www.linuxjournal.com/article/6446
+
+---------------------------------------------------------------------
+4. Article: "Making a Connection with tcpdump, Part II"
+   http://www.linuxjournal.com/article/6447
+
+---------------------------------------------------------------------
+5. Article: "Tutorial on the use of tcpdump and BPF's"
+   http://www.whitehats.ca/downloads/malik/malik_tcpdump_filters.pdf
+
+---------------------------------------------------------------------
+6. Article: "Understanding tcpdump"
+   http://www.google.ru/search?as_q=%22Understanding+tcpdump%22&num=100
+
+---------------------------------------------------------------------
+7. Article: "TCPDUMP: The Spanner Wrench of Network Monitoring"
+   http://www.usenix.org/publications/login/1998-8/tcpdump.html
+
+---------------------------------------------------------------------
+8. Article: "How to use TCPDump"
+   http://www.erg.abdn.ac.uk/users/alastair/tcpdump.html
+
+---------------------------------------------------------------------
+9. Article: "Exploring TCP/IP with TCPdump and Tethereal"
+   http://linuxgazette.net/issue86/vinayak.html
+
+---------------------------------------------------------------------
+Mailing lists (from http://www.tcpdump.org/)
+There are two mailing lists that have been set up: 
+
+tcpdump-announce@lists.tcpdump.org or, visit via web interface (https://lists.sandelman.ca/) 
+    This list is for announcements only. 
+    It is archived here (http://www.tcpdump.org/lists/announce/). 
+
+tcpdump-workers@lists.tcpdump.org or, visit via web interface (https://lists.sandelman.ca/)
+    This list is for discussion of code. 
+    It will also receive announcements, so one need only subscribe to one list or the other. 
+    It is archived here (http://www.tcpdump.org/lists/workers/). 
+
+    The option to have the list digested is available via the web interface. 
+    Posts to this list must originate from the subscriber's address. 
+
+To subscribe to these lists, please email to tcpdump-workers-request@lists.tcpdump.org, 
+or tcpdump-announce-request@lists.tcpdump.org. In the body, put the word "subscribe".
+

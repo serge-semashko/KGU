@@ -1,0 +1,12 @@
+
+
+Wed Sep  4 04:11:25 2013
+
+
+=======================================
+Printing statistics for rpc packets
+=======================================
+
+Minimal delay: 0
+Maximal delay: 0.02
+Average delay: 0.000833334

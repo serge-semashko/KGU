@@ -1,0 +1,1559 @@
+
+
+Wed Sep  4 04:11:25 2013
+
+
+======================================
+Printing statistics for rpc protocol
+======================================
+
+00:c0:95:e0:19:be received 78 packets
+
+  78 packets sent from 00:c0:95:f8:4d:d3
+
+    time = 0.01
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 111 dstport = 3289
+    rpc reply: xid = 0x3841169f
+    frame.time: Dec  3, 1999 10:48:58.410000000
+
+    time = 0.03
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 1048 dstport = 671
+    rpc reply: xid = 0x3841169f
+    frame.time: Dec  3, 1999 10:48:58.430000000
+
+    time = 0.05
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 111 dstport = 3291
+    rpc reply: xid = 0x3841aadf
+    frame.time: Dec  3, 1999 10:48:58.450000000
+
+    time = 0.05
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 3292
+    rpc reply: xid = 0x3841aadf
+    nfs.procedure_v2: 0
+    nfs: nfs
+    frame.time: Dec  3, 1999 10:48:58.450000000
+
+    time = 0.09
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b94
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.490000000
+
+    time = 0.09
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b95
+    nfs.procedure_v2: 17
+    nfs: Network File System, STATFS Reply
+    frame.time: Dec  3, 1999 10:48:58.490000000
+
+    time = 0.13
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b96
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.530000000
+
+    time = 0.13
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b97
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.530000000
+
+    time = 0.14
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b98
+    nfs.procedure_v2: 9
+    nfs: Network File System, CREATE Reply FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.540000000
+
+    time = 0.14
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b99
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.540000000
+
+    time = 0.14
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b9a
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.540000000
+
+    time = 0.14
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b9b
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.540000000
+
+    time = 0.15
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b9c
+    nfs.procedure_v2: 2
+    nfs: Network File System, SETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.550000000
+
+    time = 0.16
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b9d
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.560000000
+
+    time = 0.16
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b9e
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.560000000
+
+    time = 0.16
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0b9f
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.560000000
+
+    time = 0.17
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba0
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.570000000
+
+    time = 0.17
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba1
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.570000000
+
+    time = 0.17
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba2
+    nfs.procedure_v2: 11
+    nfs: Network File System, RENAME Reply
+    frame.time: Dec  3, 1999 10:48:58.570000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba3
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba4
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba5
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba6
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.19
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba7
+    nfs.procedure_v2: 12
+    nfs: Network File System, LINK Reply
+    frame.time: Dec  3, 1999 10:48:58.590000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba8
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0ba9
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0baa
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bab
+    nfs.procedure_v2: 13
+    nfs: Network File System, SYMLINK Reply
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.26
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bac
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.660000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bad
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bae
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0baf
+    nfs.procedure_v2: 16
+    nfs: Network File System, READDIR Reply
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb0
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb1
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb2
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb3
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xaed8f50b
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.28
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb4
+    nfs.procedure_v2: 5
+    nfs: Network File System, READLINK Reply Path:b
+    frame.time: Dec  3, 1999 10:48:58.680000000
+
+    time = 0.3
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb5
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.700000000
+
+    time = 0.3
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb6
+    nfs.procedure_v2: 14
+    nfs: Network File System, MKDIR Reply FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.700000000
+
+    time = 0.3
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb7
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.700000000
+
+    time = 0.31
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb8
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.710000000
+
+    time = 0.31
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bb9
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.710000000
+
+    time = 0.33
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bba
+    nfs.procedure_v2: 9
+    nfs: Network File System, CREATE Reply FH:0xb27328ce
+    frame.time: Dec  3, 1999 10:48:58.730000000
+
+    time = 0.33
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bbb
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.730000000
+
+    time = 0.33
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bbc
+    nfs.procedure_v2: 8
+    nfs: Network File System, WRITE Reply
+    frame.time: Dec  3, 1999 10:48:58.730000000
+
+    time = 0.33
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bbd
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.730000000
+
+    time = 0.34
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bbe
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xb27328ce
+    frame.time: Dec  3, 1999 10:48:58.740000000
+
+    time = 0.34
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bbf
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.740000000
+
+    time = 0.35
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc0
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.750000000
+
+    time = 0.35
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc1
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.750000000
+
+    time = 0.35
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc2
+    nfs.procedure_v2: 6
+    nfs: Network File System, READ Reply
+    frame.time: Dec  3, 1999 10:48:58.750000000
+
+    time = 0.36
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc3
+    nfs.procedure_v2: 8
+    nfs: Network File System, WRITE Reply
+    frame.time: Dec  3, 1999 10:48:58.760000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc4
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc5
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc6
+    nfs.procedure_v2: 16
+    nfs: Network File System, READDIR Reply
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc7
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Reply
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc8
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.38
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bc9
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.780000000
+
+    time = 0.38
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bca
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.780000000
+
+    time = 0.39
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bcb
+    nfs.procedure_v2: 15
+    nfs: Network File System, RMDIR Reply
+    frame.time: Dec  3, 1999 10:48:58.790000000
+
+    time = 0.39
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bcc
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.790000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bcd
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bce
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bcf
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Reply
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd0
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.41
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd1
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.810000000
+
+    time = 0.41
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd2
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.810000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd3
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Reply
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd4
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd5
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xaed8f50b
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd6
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xaed8f50b
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd7
+    nfs.procedure_v2: 5
+    nfs: Network File System, READLINK Reply Path:b
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd8
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.43
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bd9
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Reply
+    frame.time: Dec  3, 1999 10:48:58.830000000
+
+    time = 0.44
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bda
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Reply
+    frame.time: Dec  3, 1999 10:48:58.840000000
+
+    time = 0.44
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 2049 dstport = 1023
+    rpc reply: xid = 0x5e1d0bdb
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Reply  Error:NFSERR_NOENT
+    frame.time: Dec  3, 1999 10:48:58.840000000
+
+    time = 0.49
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 111 dstport = 3293
+    rpc reply: xid = 0x384ae38e
+    frame.time: Dec  3, 1999 10:48:58.890000000
+
+    time = 0.49
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:f8:4d:d3 dst = 00:c0:95:e0:19:be
+    ip:  src = 139.25.22.102 dst = 139.25.22.2
+    udp: srcport = 1048 dstport = 686
+    rpc reply: xid = 0x384ae38e
+    frame.time: Dec  3, 1999 10:48:58.890000000
+
+
+00:c0:95:f8:4d:d3 received 78 packets
+
+  78 packets sent from 00:c0:95:e0:19:be
+
+    time = 0
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 3289 dstport = 111
+    rpc call: xid = 0x3841169f
+    frame.time: Dec  3, 1999 10:48:58.400000000
+
+    time = 0.01
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 671 dstport = 1048
+    rpc call: xid = 0x3841169f
+    frame.time: Dec  3, 1999 10:48:58.410000000
+
+    time = 0.04
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 3291 dstport = 111
+    rpc call: xid = 0x3841aadf
+    frame.time: Dec  3, 1999 10:48:58.440000000
+
+    time = 0.05
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 3292 dstport = 2049
+    rpc call: xid = 0x3841aadf
+    nfs.procedure_v2: 0
+    nfs: nfs
+    frame.time: Dec  3, 1999 10:48:58.450000000
+
+    time = 0.09
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b94
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.490000000
+
+    time = 0.09
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b95
+    nfs.procedure_v2: 17
+    nfs: Network File System, STATFS Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.490000000
+
+    time = 0.13
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b96
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/a
+    frame.time: Dec  3, 1999 10:48:58.530000000
+
+    time = 0.13
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b97
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/a
+    frame.time: Dec  3, 1999 10:48:58.530000000
+
+    time = 0.13
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b98
+    nfs.procedure_v2: 9
+    nfs: Network File System, CREATE Call DH:0x38a4e9f6/a
+    frame.time: Dec  3, 1999 10:48:58.530000000
+
+    time = 0.14
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b99
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.540000000
+
+    time = 0.14
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b9a
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.540000000
+
+    time = 0.14
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b9b
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/a
+    frame.time: Dec  3, 1999 10:48:58.540000000
+
+    time = 0.15
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b9c
+    nfs.procedure_v2: 2
+    nfs: Network File System, SETATTR Call FH:0x7b0e545a
+    frame.time: Dec  3, 1999 10:48:58.550000000
+
+    time = 0.16
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b9d
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/a
+    frame.time: Dec  3, 1999 10:48:58.560000000
+
+    time = 0.16
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b9e
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.560000000
+
+    time = 0.16
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0b9f
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.560000000
+
+    time = 0.17
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba0
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/a
+    frame.time: Dec  3, 1999 10:48:58.570000000
+
+    time = 0.17
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba1
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.570000000
+
+    time = 0.17
+    protocols = eth:ip:udp:rpc:nfs:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba2
+    nfs.procedure_v2: 11
+    nfs: Network File System, RENAME Call From DH:0x38a4e9f6/a To DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.570000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba3
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba4
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/b
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba5
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/bln
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.18
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba6
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/bln
+    frame.time: Dec  3, 1999 10:48:58.580000000
+
+    time = 0.19
+    protocols = eth:ip:udp:rpc:nfs:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba7
+    nfs.procedure_v2: 12
+    nfs: Network File System, LINK Call From DH:0xa5fcf973 To DH:0x38a4e9f6/bln
+    frame.time: Dec  3, 1999 10:48:58.590000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba8
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0ba9
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/blns
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0baa
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/blns
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.25
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bab
+    nfs.procedure_v2: 13
+    nfs: Network File System, SYMLINK Call From DH:0x38a4e9f6/blns To b
+    frame.time: Dec  3, 1999 10:48:58.650000000
+
+    time = 0.26
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bac
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.660000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bad
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/.
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bae
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0baf
+    nfs.procedure_v2: 16
+    nfs: Network File System, READDIR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb0
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/b
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb1
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb2
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/bln
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.27
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb3
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/blns
+    frame.time: Dec  3, 1999 10:48:58.670000000
+
+    time = 0.28
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb4
+    nfs.procedure_v2: 5
+    nfs: Network File System, READLINK Call FH:0xaed8f50b
+    frame.time: Dec  3, 1999 10:48:58.680000000
+
+    time = 0.3
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb5
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/d
+    frame.time: Dec  3, 1999 10:48:58.700000000
+
+    time = 0.3
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb6
+    nfs.procedure_v2: 14
+    nfs: Network File System, MKDIR Call DH:0x38a4e9f6/d
+    frame.time: Dec  3, 1999 10:48:58.700000000
+
+    time = 0.3
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb7
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.700000000
+
+    time = 0.31
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb8
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/d
+    frame.time: Dec  3, 1999 10:48:58.710000000
+
+    time = 0.31
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bb9
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x297e3e48/h
+    frame.time: Dec  3, 1999 10:48:58.710000000
+
+    time = 0.31
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bba
+    nfs.procedure_v2: 9
+    nfs: Network File System, CREATE Call DH:0x297e3e48/h
+    frame.time: Dec  3, 1999 10:48:58.710000000
+
+    time = 0.33
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bbb
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0xb27328ce
+    frame.time: Dec  3, 1999 10:48:58.730000000
+
+    time = 0.33
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bbc
+    nfs.procedure_v2: 8
+    nfs: Network File System, WRITE Call FH:0xb27328ce BeginOffset:0 Offset:0 TotalCount:6
+    frame.time: Dec  3, 1999 10:48:58.730000000
+
+    time = 0.33
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bbd
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.730000000
+
+    time = 0.34
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bbe
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x297e3e48/h
+    frame.time: Dec  3, 1999 10:48:58.740000000
+
+    time = 0.34
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bbf
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0xb27328ce
+    frame.time: Dec  3, 1999 10:48:58.740000000
+
+    time = 0.34
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc0
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/b
+    frame.time: Dec  3, 1999 10:48:58.740000000
+
+    time = 0.35
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc1
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0xa5fcf973
+    frame.time: Dec  3, 1999 10:48:58.750000000
+
+    time = 0.35
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc2
+    nfs.procedure_v2: 6
+    nfs: Network File System, READ Call FH:0xa5fcf973 Offset:0 Count:8192 TotalCount:8192
+    frame.time: Dec  3, 1999 10:48:58.750000000
+
+    time = 0.35
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc3
+    nfs.procedure_v2: 8
+    nfs: Network File System, WRITE Call FH:0xb27328ce BeginOffset:0 Offset:0 TotalCount:17
+    frame.time: Dec  3, 1999 10:48:58.750000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc4
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/d
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc5
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc6
+    nfs.procedure_v2: 16
+    nfs: Network File System, READDIR Call FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc7
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Call DH:0x297e3e48/h
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.37
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc8
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x297e3e48
+    frame.time: Dec  3, 1999 10:48:58.770000000
+
+    time = 0.38
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bc9
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/.
+    frame.time: Dec  3, 1999 10:48:58.780000000
+
+    time = 0.38
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bca
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/d
+    frame.time: Dec  3, 1999 10:48:58.780000000
+
+    time = 0.38
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bcb
+    nfs.procedure_v2: 15
+    nfs: Network File System, RMDIR Call DH:0x38a4e9f6/d
+    frame.time: Dec  3, 1999 10:48:58.780000000
+
+    time = 0.39
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bcc
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.790000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bcd
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bce
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bcf
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.4
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd0
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.800000000
+
+    time = 0.41
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd1
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/bln
+    frame.time: Dec  3, 1999 10:48:58.810000000
+
+    time = 0.41
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd2
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/bln
+    frame.time: Dec  3, 1999 10:48:58.810000000
+
+    time = 0.41
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd3
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Call DH:0x38a4e9f6/bln
+    frame.time: Dec  3, 1999 10:48:58.810000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd4
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd5
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/blns
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd6
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/blns
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd7
+    nfs.procedure_v2: 5
+    nfs: Network File System, READLINK Call FH:0xaed8f50b
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd8
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/b
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.42
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bd9
+    nfs.procedure_v2: 10
+    nfs: Network File System, REMOVE Call DH:0x38a4e9f6/blns
+    frame.time: Dec  3, 1999 10:48:58.820000000
+
+    time = 0.44
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bda
+    nfs.procedure_v2: 1
+    nfs: Network File System, GETATTR Call FH:0x38a4e9f6
+    frame.time: Dec  3, 1999 10:48:58.840000000
+
+    time = 0.44
+    protocols = eth:ip:udp:rpc:nfs
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 1023 dstport = 2049
+    rpc call: xid = 0x5e1d0bdb
+    nfs.procedure_v2: 4
+    nfs: Network File System, LOOKUP Call DH:0x38a4e9f6/am
+    frame.time: Dec  3, 1999 10:48:58.840000000
+
+    time = 0.48
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 3293 dstport = 111
+    rpc call: xid = 0x384ae38e
+    frame.time: Dec  3, 1999 10:48:58.880000000
+
+    time = 0.49
+    protocols = eth:ip:udp:rpc
+    eth: src = 00:c0:95:e0:19:be dst = 00:c0:95:f8:4d:d3
+    ip:  src = 139.25.22.2 dst = 139.25.22.102
+    udp: srcport = 686 dstport = 1048
+    rpc call: xid = 0x384ae38e
+    frame.time: Dec  3, 1999 10:48:58.890000000
+
+

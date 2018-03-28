@@ -1,0 +1,817 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"inc	#include \"…\""
+			],
+			[
+				"Fil",
+				"FileReader"
+			],
+			[
+				"OK",
+				"SET_OK"
+			],
+			[
+				"chil",
+				"children_vis"
+			],
+			[
+				"spe",
+				"specularColor"
+			],
+			[
+				"dir",
+				"dir_inv"
+			],
+			[
+				"Load",
+				"LoadVBO"
+			],
+			[
+				"val",
+				"value_ptr"
+			],
+			[
+				"light",
+				"light_diffuse"
+			],
+			[
+				"vie",
+				"viewProjection"
+			],
+			[
+				"SetUni",
+				"SetUniform4fv"
+			],
+			[
+				"SCRE",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"GetMes",
+				"GetMeshSize"
+			],
+			[
+				"CAMER",
+				"CAMERA_SLOWDOWN"
+			],
+			[
+				"STRA",
+				"STRAFE_SENSITIVITY"
+			],
+			[
+				"CMe",
+				"CMesh"
+			],
+			[
+				"Cme",
+				"CMesh"
+			],
+			[
+				"MOU",
+				"MOUSE_SENSITIVITY_PER_SEC"
+			],
+			[
+				"ROLL",
+				"ROLL_ANGLE_PER_SEC"
+			],
+			[
+				"ST",
+				"STRAFE_SENSITIVITY_PER_SEC"
+			],
+			[
+				"glClear",
+				"glClearColor"
+			],
+			[
+				"initiali",
+				"initialized"
+			],
+			[
+				"Bind",
+				"BindVBO"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"attri",
+				"attribute_v_color"
+			],
+			[
+				"attr",
+				"attribute_coord3d"
+			],
+			[
+				"CC",
+				"CCube"
+			],
+			[
+				"Bin",
+				"BindVBO"
+			],
+			[
+				"GL_MAX_EL",
+				"GL_MAX_ELEMENTS_INDICES"
+			],
+			[
+				"Key",
+				"KeyboardUpFunc"
+			],
+			[
+				"SC",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"lo",
+				"LogShutdown"
+			],
+			[
+				"SCREE",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"scre",
+				"screen_width"
+			],
+			[
+				"mat",
+				"mat4"
+			],
+			[
+				"Unl",
+				"UnloadVertexShader"
+			],
+			[
+				"GL_SHA",
+				"GL_VERTEX_SHADER"
+			],
+			[
+				"define",
+				"defines"
+			],
+			[
+				"Rend",
+				"RenderFrame"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"CG",
+				"CGame"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"clean",
+				"Build: Clean"
+			],
+			[
+				"buicl",
+				"Build: Clean"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Show Input Field"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"sugdb",
+				"SublimeGDB: Show Input Field"
+			],
+			[
+				"pcontro",
+				"Package Control: List Packages"
+			],
+			[
+				"debug",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"debugg",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"gddeb",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"gddebu",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"gdb deb",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"sugdbsett",
+				"Preferences: SublimeGDB Settings – Default"
+			],
+			[
+				"ssc+",
+				"Set Syntax: C++"
+			],
+			[
+				"pc ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pcdisc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pc",
+				"Package Control: List Packages"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"packcontr",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 266.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/PAVLIK/C++/parser/reader.h",
+		"/D/PAVLIK/C++/parser/file_reader.h",
+		"/D/PAVLIK/C++/shared_mem_test/client.cpp",
+		"/D/PAVLIK/C++/parser/arguments.h",
+		"/D/PAVLIK/C++/parser/main.cpp",
+		"/D/PAVLIK/C++/parser/shmem_reader.h",
+		"/D/PAVLIK/C++/parser/shmem_reader.cpp",
+		"/D/PAVLIK/C++/parser/includes.h",
+		"/C/MinGW/include/sys/locking.h",
+		"/C/MinGW/include/sys/fcntl.h",
+		"/C/MinGW/include/sys/types.h",
+		"/C/MinGW/include/ctype.h",
+		"/C/MinGW/include/windef.h",
+		"/C/cygwin/home/остар/b.asm",
+		"/C/cygwin/home/остар/io.inc",
+		"/C/cygwin/usr/include/_ansi.h",
+		"/C/MinGW/include/gdiplus/gdiplus.h",
+		"/C/MinGW/include/errno.h",
+		"/C/MinGW/include/d3d9.h",
+		"/C/MinGW/include/_mingw.h",
+		"/home/user/parser/file_reader.cpp",
+		"/home/user/parser/file_reader.h",
+		"/home/user/parser/arguments.h",
+		"/home/user/parser/includes.h",
+		"/home/user/parser/reader.cpp",
+		"/home/user/parser/reader.h",
+		"/home/user/parser/arguments.cpp",
+		"/home/user/parser/filter.h",
+		"/home/user/parser/filter.cpp",
+		"/home/user/parser/Makefile",
+		"/home/user/shared_mem_test/Makefile",
+		"/home/user/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/user/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/user/parser/processor.cpp",
+		"/home/user/parser/line_parser.cpp",
+		"/home/user/parser/line.cpp",
+		"/home/user/parser/file.cpp",
+		"/usr/include/c++/4.7/bits/stl_vector.h",
+		"/home/user/parser/packet.cpp",
+		"/usr/include/c++/4.7/bits/basic_string.h",
+		"/home/user/parser/parser.sublime-project",
+		"/home/user/parser/file.h",
+		"/home/user/parser/process.h",
+		"/home/user/parser/printer.h",
+		"/home/user/parser/printer.cpp",
+		"/home/user/parser/cap03.txt",
+		"/home/user/parser/time_format.txt",
+		"/C/Home/PAVLIK/C++/Parser/process.h",
+		"/C/Home/PAVLIK/C++/Parser/main.cpp",
+		"/C/Home/PAVLIK/C++/Parser/process.cpp",
+		"/C/Home/PAVLIK/C++/Parser/file.cpp",
+		"/C/Home/PAVLIK/C++/Parser/arguments.cpp",
+		"/C/Home/PAVLIK/C++/Parser/file.h",
+		"/c/home/pavlik/c++/parser/line.cpp",
+		"/C/Home/PAVLIK/C++/Parser/packet.cpp",
+		"/C/Home/PAVLIK/C++/Parser/Makefile",
+		"/C/Home/PAVLIK/C++/Parser/parser.sublime-project",
+		"/C/Home/PAVLIK/C++/Parser/line.cpp",
+		"/C/Home/PAVLIK/C++/Parser/packet.h",
+		"/C/Home/PAVLIK/C++/Parser/test.txt",
+		"/C/Home/PAVLIK/C++/Parser/printer.cpp",
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/SublimeGDB/sublimegdb.py",
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/SublimeGDB/SublimeGDB.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeGDB.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/SublimeGDB/Default.sublime-keymap",
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Home/PAVLIK/C++/Parser/filter.h",
+		"/C/Home/PAVLIK/C++/Parser/filter.cpp",
+		"/C/Home/PAVLIK/C++/Parser/arguments.h",
+		"/C/Home/PAVLIK/C++/Parser/includes.h",
+		"/C/Home/PAVLIK/C++/Parser/line.h",
+		"/C/Home/PAVLIK/C++/Parser/time_format.txt",
+		"/C/Home/PAVLIK/C++/Parser/cap03.txt",
+		"/C/Program Files/Wireshark/cap03.txt",
+		"/C/Home/PAVLIK/Books/Game Programming Gems/Gems_1/Programming/02Isensee/matrix/matrix.cpp",
+		"/C/Home/PAVLIK/C++/Game/shader.cpp",
+		"/C/Home/PAVLIK/C++/Game/defines.cpp",
+		"/C/Home/PAVLIK/C++/Game/defines.h",
+		"/C/Home/PAVLIK/Delphi/Asqbutt/Debug.pas",
+		"/C/Home/PAVLIK/Delphi/Asqbutt/ExtractUnit.pas",
+		"/C/Home/PAVLIK/C++/Cube_optimized/game.cpp",
+		"/C/Home/PAVLIK/C++/Cube_optimized/cube.h",
+		"/C/Games/pat/PUTTZOO.HE0",
+		"/C/Home/PAVLIK/Python/taskA/taskA.py",
+		"/C/Home/PAVLIK/Python/taskB/taskB.py",
+		"/C/Home/PAVLIK/C++/Cube/game.h",
+		"/C/Home/PAVLIK/C++/Parser/dst.txt",
+		"/C/Home/PAVLIK/C++/Parser/cap02.txt",
+		"/C/Home/PAVLIK/C++/Parser/format.txt",
+		"/C/Home/PAVLIK/C++/Cube/defines.cpp",
+		"/C/Home/PAVLIK/C++/Cube/game.cpp",
+		"/C/Home/PAVLIK/C++/Cube/shaders/fragment.glsl",
+		"/C/Home/PAVLIK/C++/Cube/shaders/bak_fragment.glsl",
+		"/C/Home/PAVLIK/C++/t/center.cpp",
+		"/C/Home/PAVLIK/C++/Cube/cube.h",
+		"/C/Home/PAVLIK/C++/Cube/shaders/bak2_fragment.glsl",
+		"/C/Home/PAVLIK/C++/Cube/cube.cpp",
+		"/C/Home/PAVLIK/C++/Cube/main.cpp",
+		"/C/Home/PAVLIK/C++/t/main.cpp",
+		"/C/Home/PAVLIK/C++/Cube/shaders/vertex.glsl",
+		"/C/Home/PAVLIK/C++/Cube/shader.cpp",
+		"/C/Home/PAVLIK/C++/Cube/shader.h",
+		"/C/Home/PAVLIK/C++/Cube/camera.h",
+		"/C/Home/PAVLIK/C++/Cube/camera.cpp",
+		"/C/Home/PAVLIK/C++/Cube/mesh.cpp",
+		"/C/Home/PAVLIK/C++/Cube/quad.h",
+		"/C/Home/PAVLIK/C++/Cube/quad.cpp",
+		"/C/Home/PAVLIK/C++/Cube/mesh.h",
+		"/C/Home/PAVLIK/C++/Cube/logger.cpp",
+		"/C/Home/PAVLIK/C++/Cube/keyboard.h",
+		"/C/Home/PAVLIK/C++/Cube/keyboard.cpp",
+		"/C/Home/PAVLIK/C++/Cube/material.h",
+		"/C/Home/PAVLIK/C++/Cube/light.h",
+		"/C/Home/PAVLIK/C++/Cube/defines.h",
+		"/c/mingw/lib/gcc/mingw32/4.7.2/include/c++/bits/stl_vector.h",
+		"/C/Home/PAVLIK/C++/Cube/Makefile",
+		"/C/Home/PAVLIK/C++/Cube/light.cpp",
+		"/C/Home/PAVLIK/C++/Cube/buffer.cpp",
+		"/C/Home/PAVLIK/C++/Cube/log/cube.log",
+		"/C/Home/PAVLIK/C++/Cube/scene.h",
+		"/C/Home/PAVLIK/C++/Cube/scene.cpp",
+		"/C/Home/PAVLIK/C++/Cube/buffer.h",
+		"/C/Home/PAVLIK/C++/Cube/logger.h",
+		"/C/Home/PAVLIK/C++/Cube/drawable.h",
+		"/C/Home/PAVLIK/C++/backup.bat",
+		"/C/Home/PAVLIK/C++/Cube_optimized/cube.cpp",
+		"/C/Users/user/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Home/PAVLIK/C++/Yo/shaders/vertex.glsl"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"reader.",
+			"MakeReader",
+			"opt.required_protocols",
+			"required_protocols",
+			"require",
+			"ARG_REQUIRED_PROTOCOLS",
+			"Forbidden",
+			"reader",
+			"LIB_DIRS",
+			"inline",
+			"const",
+			"is.",
+			"is",
+			"const std::istream &is, ",
+			"source",
+			"ProcessLine",
+			"ReadLine",
+			"parser",
+			"ifs",
+			"flag",
+			"gment(",
+			"t(",
+			"FileReader",
+			"const char *",
+			"line.h",
+			"file.h",
+			"std::cout",
+			"cout",
+			"ARG_OUTPUT",
+			"ARG_INPUT",
+			"if",
+			"*",
+			"exit",
+			"== NULL)",
+			"try {",
+			"		} catch (std::bad_alloc&) {\n",
+			"exit",
+			"char *",
+			"char",
+			"char *",
+			"input_file",
+			"inpu",
+			"input_f",
+			"Get",
+			"int",
+			"prepare_output",
+			")",
+			" &&",
+			"&&",
+			"opt",
+			"const",
+			"links",
+			"&",
+			"links",
+			"&",
+			"std",
+			"size_t",
+			"unsigned",
+			"vector",
+			"for(int",
+			"int",
+			"s",
+			"InitProcessor",
+			"insert_number",
+			"orig",
+			"MakeFilename",
+			"f",
+			"finish_time",
+			"end",
+			"float",
+			"arp",
+			"delete",
+			"new",
+			".back",
+			"		out << \"asdasd\\n\";\n",
+			"std::cout",
+			"i == \" << i << \"\\n",
+			"(int)",
+			"line",
+			"<<",
+			"\\r",
+			"|",
+			"std::cin",
+			"bool",
+			"-exec-args",
+			"run_cmd",
+			"parse",
+			"\\",
+			"int",
+			"PARSER_OK",
+			"if (t == LineParser::PARSER_OK) {",
+			"DEFAULT_FINISH_TIME",
+			"false",
+			"return 0;",
+			"return 0",
+			"#CFLAGS = -g -static -std=c++11 -Wall -Wextra -Wcpp -Wparentheses -Wno-write-strings\n",
+			"protocol",
+			"l)",
+			";",
+			"::Allowed",
+			");",
+			"src",
+			"protocol",
+			";",
+			"LINKS",
+			"src",
+			"SRC",
+			"DST",
+			"SRC",
+			"src",
+			"IP",
+			"opt.print_packets",
+			"src",
+			"SRC",
+			"STATS",
+			"STATS_SRC",
+			"opt.required_protocols[i]",
+			"time_step",
+			"src",
+			"have",
+			"expects",
+			"streampos",
+			"max_time",
+			"return PARSER_FAILURE;",
+			"false",
+			"true",
+			"bool",
+			"bool SetData"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"GLuint"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 239.0
+	},
+	"project": "parser.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\PAVLIK\\C++\\parser\\main.cpp"
+			],
+			[
+				"read",
+				"reader.cpp"
+			],
+			[
+				"inc",
+				"includes.h"
+			],
+			[
+				"arg",
+				"arguments.h"
+			],
+			[
+				"arguc",
+				"arguments.cpp"
+			],
+			[
+				"filter",
+				"filter.h"
+			],
+			[
+				"fil",
+				"filter.h"
+			],
+			[
+				"mak",
+				"Makefile"
+			],
+			[
+				"red",
+				"reader.cpp"
+			],
+			[
+				"file",
+				"file_reader.cpp"
+			],
+			[
+				"reade",
+				"file_reader.cpp"
+			],
+			[
+				"fileh",
+				"file_reader.h"
+			],
+			[
+				"proce",
+				"processor.cpp"
+			],
+			[
+				"linecp",
+				"line_parser.cpp"
+			],
+			[
+				"arguh",
+				"arguments.h"
+			],
+			[
+				"line",
+				"line.cpp"
+			],
+			[
+				"argcp",
+				"arguments.cpp"
+			],
+			[
+				"proje",
+				"parser.sublime-project"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"filth",
+				"filter.h"
+			],
+			[
+				"filh",
+				"file.h"
+			],
+			[
+				"printcp",
+				"printer.cpp"
+			],
+			[
+				"printh",
+				"printer.h"
+			],
+			[
+				"proc",
+				"process.h"
+			],
+			[
+				"file.cp",
+				"file.cpp"
+			],
+			[
+				"argu",
+				"arguments.h"
+			],
+			[
+				"ficp",
+				"file.cpp"
+			],
+			[
+				"argh",
+				"arguments.h"
+			],
+			[
+				"main",
+				"main.cpp"
+			],
+			[
+				"proch",
+				"process.h"
+			],
+			[
+				"fih",
+				"file.h"
+			],
+			[
+				"pack",
+				"packet.cpp"
+			],
+			[
+				"packth",
+				"packet.h"
+			],
+			[
+				"lin",
+				"line.cpp"
+			],
+			[
+				"printer",
+				"printer.cpp"
+			],
+			[
+				"packet",
+				"packet.cpp"
+			],
+			[
+				"fl",
+				"file.cpp"
+			],
+			[
+				"quacp",
+				"quad.cpp"
+			],
+			[
+				"gah",
+				"game.h"
+			],
+			[
+				"game",
+				"game.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

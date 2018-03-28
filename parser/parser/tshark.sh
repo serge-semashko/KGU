@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+./tshark -e frame.time_relative -e frame.time -e frame.protocols -e eth.src -e eth.dst -e ip.src -e ip.dst -e tcp.srcport -e tcp.dstport -e udp.srcport -e udp.dstport -e arp.opcode -e arp.src.hw_mac -e arp.src.proto_ipv4 -e arp.dst.hw_mac -e arp.dst.proto_ipv4 -e nfs -e nfs.procedure_v2 -e nfs.procedure_v3 -e nfs.procedure_v4 -e rpc.msgtyp -e rpc.xid

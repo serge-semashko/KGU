@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/user/parser"
+		}
+	],
+	"settings":
+    {
+         "sublimegdb_workingdir": "${folder:${project_path:parse}}",
+         "sublimegdb_commandline": "gdb --interpreter=mi ./parse",
+         "sublimegdb_exec_cmd": [
+	         "-exec-arguments -i cap03.txt -protocols ip tcp arp -format time_format.txt",
+	         "-exec-run"
+         ]
+    }
+}
