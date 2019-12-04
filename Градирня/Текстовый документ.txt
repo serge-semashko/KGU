@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Scheme_pic</title>
+ <meta name=GENERATOR content="Saia PG5 Web Editor">
+  <style type="text/css">
+applet.teqruntime {
+  position: absolute;
+}
+body {
+  margin: 0px;
+  background-color: rgb(255,255,255);
+}
+  </style>
+
+  </head>
+<body>
+  <APPLET ARCHIVE="IMasterSaia5_15_03.jar" CODE="IMasterSaia5_15_03.class" WIDTH="1024" HEIGHT="768" CLASS="teqruntime">
+    <PARAM NAME="java_arguments" VALUE="-Xms256m -Xmx512m">
+    <PARAM NAME="AppletName" VALUE="Scheme_pic">
+    <PARAM NAME="ProjectName" VALUE="Scheme_pic">
+    <PARAM NAME="DrawTeqsAtInit" VALUE="true">
+    <PARAM NAME="Period" VALUE="500">
+    <PARAM NAME="OrderPerView" VALUE="ON">
+    <PARAM NAME="debug" VALUE="OFF">
+    <PARAM NAME="SpiderHTMLVersion" VALUE="10">
+    <PARAM NAME="StaticHTMLTagsFileName" VALUE="">
+    <PARAM NAME="SOAPIF" VALUE="OFF">
+    <PARAM NAME="encodeSpecialChar" VALUE="ON">
+    <PARAM NAME="RUNTIMEACTIONMODE" VALUE="CONSUMED ACTION">
+    <PARAM NAME="BrowsingMode" VALUE="DEFAULT">
+    <PARAM NAME="MirrorPPOName" VALUE="mirror">
+    <PARAM NAME="LoadingMode" VALUE="Standard Load">
+    <PARAM NAME="LANG_SYMB" VALUE="EN">
+    <PARAM NAME="DEC_SYMB" VALUE=".">
+    <PARAM NAME="PM_AM" VALUE="0">
+    <PARAM NAME="CGIFAILNBR_UNTILWARN" VALUE="1">
+    <PARAM NAME="WARNDISPLAYTIME_UNTILCLEARMSGBOX" VALUE="0">
+    <PARAM NAME="InitPhaseMessagesLevel" VALUE="2">
+    <PARAM NAME="VIEW_ALIGNMENT" VALUE="1">
+    <PARAM NAME="IMASTERHTMLTAGSFILEName" VALUE="$CL_ru_urmq9s.csv">
+    <PARAM NAME="InitCoTEQName" VALUE="$CIV_urmq9s.itq">
+    <PARAM NAME="InitPPOASCIIName" VALUE="$CPV_urmq9s.tcr">
+    <PARAM NAME="TEQDISPLAYFACTOR" VALUE="1.000">
+    <PARAM NAME="IMASTER_FONT_FACTOR" VALUE="1.000">
+    <PARAM NAME="Main" VALUE="0">
+    <PARAM NAME="MainTEQName" VALUE="1.teq">
+    <PARAM NAME="MessageBox" VALUE="MsgBox.teq">
+    <PARAM NAME="FirstFileIndex" VALUE="0">
+    <PARAM NAME="LastFileIndex" VALUE="3">
+    <PARAM NAME="TEQ0NAME" VALUE="1.teq">
+    <PARAM NAME="TEQ1NAME" VALUE="MsgBox.teq">
+    <PARAM NAME="TEQ2NAME" VALUE="LogTemp.teq">
+    <PARAM NAME="TEQ3NAME" VALUE="LogPres.teq">
+    <PARAM NAME="?S_BC_SolutionName" VALUE="Scheme_pic">
+    <PARAM NAME="?S_BC_ProjectName" VALUE="Scheme_pic">
+    <PARAM NAME="?S_BC_SolutionVersion" VALUE="0.1">
+    <PARAM NAME="?S_BC_ProjectVersion" VALUE="0.1">
+    <PARAM NAME="?S_BC_BuildTimeUTC" VALUE="03/27/2019 15:56:08">
+    <PARAM NAME="?S_BC_BuildTime" VALUE="27/03/2019 6:56:08 PM">
+    <PARAM NAME="?S_BC_UniqueBuildId" VALUE="dkdmr4">
+    <PARAM NAME="?S_BC_AuthorInfoName" VALUE="Aleksey">
+    <PARAM NAME="?S_BC_AuthorInfoEMail" VALUE="">
+    <PARAM NAME="?S_BC_AuthorInfoCopyright" VALUE="Aleksey">
+    <PARAM NAME="?S_BC_AuthorInfoCompany" VALUE="">
+    <PARAM NAME="?S_BC_AuthorInfoTrademark" VALUE="">
+    <PARAM NAME="?S_BC_LanguageFile_0" VALUE="$CL_ru_urmq9s.csv">
+    <PARAM NAME="?S_BC_LanguageFileIdx_$CL_ru_urmq9s.csv" VALUE="0">
+    <PARAM NAME="?S_BC_LanguageName_0" VALUE="Russian">
+    <PARAM NAME="?S_BC_LanguageNameIdx_Russian" VALUE="0">
+    <PARAM NAME="?S_BC_LanguageFiles" VALUE="$CL_ru_urmq9s.csv">
+    <PARAM NAME="?S_BC_LanguageNames" VALUE="Russian">
+    <PARAM NAME="?S_BC_LanguageCount" VALUE="1">
+    <PARAM NAME="?S_BC_UserGroupName_0" VALUE="Group 1">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 1" VALUE="0">
+    <PARAM NAME="?S_BC_UserGroupName_1" VALUE="Group 2">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 2" VALUE="1">
+    <PARAM NAME="?S_BC_UserGroupName_2" VALUE="Group 3">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 3" VALUE="2">
+    <PARAM NAME="?S_BC_UserGroupName_3" VALUE="Group 4">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 4" VALUE="3">
+    <PARAM NAME="?S_BC_UserGroupName_4" VALUE="Group 5">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 5" VALUE="4">
+    <PARAM NAME="?S_BC_UserGroupName_5" VALUE="Group 6">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 6" VALUE="5">
+    <PARAM NAME="?S_BC_UserGroupName_6" VALUE="Group 7">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 7" VALUE="6">
+    <PARAM NAME="?S_BC_UserGroupName_7" VALUE="Group 8">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 8" VALUE="7">
+    <PARAM NAME="?S_BC_UserGroupName_8" VALUE="Group 9">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 9" VALUE="8">
+    <PARAM NAME="?S_BC_UserGroupName_9" VALUE="Group 10">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 10" VALUE="9">
+    <PARAM NAME="?S_BC_UserGroupName_10" VALUE="Group 11">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 11" VALUE="10">
+    <PARAM NAME="?S_BC_UserGroupName_11" VALUE="Group 12">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 12" VALUE="11">
+    <PARAM NAME="?S_BC_UserGroupName_12" VALUE="Group 13">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 13" VALUE="12">
+    <PARAM NAME="?S_BC_UserGroupName_13" VALUE="Group 14">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 14" VALUE="13">
+    <PARAM NAME="?S_BC_UserGroupName_14" VALUE="Group 15">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 15" VALUE="14">
+    <PARAM NAME="?S_BC_UserGroupName_15" VALUE="Group 16">
+    <PARAM NAME="?S_BC_UserGroupNameIdx_Group 16" VALUE="15">
+    <PARAM NAME="?S_BC_UserGroupCount" VALUE="16">
+    <PARAM NAME="?S_BC_ViewName_0" VALUE="MsgBox">
+    <PARAM NAME="?S_BC_ViewNameIdx_MsgBox" VALUE="0">
+    <PARAM NAME="?S_BC_ViewFileName_0" VALUE="MsgBox.teq">
+    <PARAM NAME="?S_BC_ViewFileNameIdx_MsgBox.teq" VALUE="0">
+    <PARAM NAME="?S_BC_ViewName_1" VALUE="LogTemp">
+    <PARAM NAME="?S_BC_ViewNameIdx_LogTemp" VALUE="1">
+    <PARAM NAME="?S_BC_ViewFileName_1" VALUE="LogTemp.teq">
+    <PARAM NAME="?S_BC_ViewFileNameIdx_LogTemp.teq" VALUE="1">
+    <PARAM NAME="?S_BC_ViewName_2" VALUE="LogPres">
+    <PARAM NAME="?S_BC_ViewNameIdx_LogPres" VALUE="2">
+    <PARAM NAME="?S_BC_ViewFileName_2" VALUE="LogPres.teq">
+    <PARAM NAME="?S_BC_ViewFileNameIdx_LogPres.teq" VALUE="2">
+    <PARAM NAME="?S_BC_ViewName_3" VALUE="1">
+    <PARAM NAME="?S_BC_ViewNameIdx_1" VALUE="3">
+    <PARAM NAME="?S_BC_ViewFileName_3" VALUE="1.teq">
+    <PARAM NAME="?S_BC_ViewFileNameIdx_1.teq" VALUE="3">
+    <PARAM NAME="?S_BC_ViewNames" VALUE="MsgBox\nLogTemp\nLogPres\n1">
+    <PARAM NAME="?S_BC_ViewFileNames" VALUE="MsgBox.teq\nLogTemp.teq\nLogPres.teq\n1.teq">
+    <PARAM NAME="?S_BC_ViewCount" VALUE="4">
+The visualization runtime could not be started. The browser does not support Java, the Java plug-in is not installed or the Applet could not be loaded.
+  </APPLET>
+
+</body>
+</html>
